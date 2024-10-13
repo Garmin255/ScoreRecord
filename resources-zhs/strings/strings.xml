@@ -1,0 +1,19 @@
+<strings>
+    <string id="AppName">蓝梦 Soccer</string>
+
+    <string id="Home">看台</string>
+    <string id="Away">学校</string>
+    
+    <string id="score_separator"> - </string>
+    <string id="Prompt">点击 “开始” 开始记录</string>
+
+    <string id="menu_label_records">历史记录</string>
+    <string id="menu_label_default">清空数据</string>
+    <string id="menu_label_exit">退出</string>
+    <string id="Confirm">确定</string>
+    <string id="Cancel">取消</string>
+    <string id="Start">运动开始</string>
+    <string id="Stop">运动结束</string>
+    <string id="Records">进球记录</string>
+    <string id="Defaults">清空数据</string>
+</strings>

@@ -1,8 +1,19 @@
 <strings>
-    <string id="AppName">Soccer</string>
+    <string id="AppName">Soccer Record</string>
 
-    <string id="prompt">Click the menu button</string>
+    <string id="Home">Home</string>
+    <string id="Away">Away</string>
+    
+    <string id="score_separator"> - </string>
+    <string id="Prompt">Press the "Start" button\nLong Press "UP" button</string>
 
-    <string id="menu_label_1">Item 1</string>
-    <string id="menu_label_2">Item 2</string>
+    <string id="menu_label_records">Records</string>
+    <string id="menu_label_default">Defaults</string>
+    <string id="menu_label_exit">Exit</string>
+    <string id="Confirm">Confirm</string>
+    <string id="Cancel">Cancel</string>
+    <string id="Start">Start</string>
+    <string id="Stop">Stop</string>
+    <string id="Records">Records</string>
+    <string id="Defaults">Defaults</string>
 </strings>

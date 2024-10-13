@@ -1,4 +1,5 @@
 <menu id="MainMenu">
-    <menu-item id="item_1" label="@Strings.menu_label_1" />
-    <menu-item id="item_2" label="@Strings.menu_label_2" />
+    <menu-item id="item_records" label="@Strings.menu_label_records" />
+    <menu-item id="item_default" label="@Strings.menu_label_default" />
+    <menu-item id="item_exit" label="@Strings.menu_label_exit" />
 </menu>
