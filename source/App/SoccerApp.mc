@@ -4,6 +4,7 @@ import Toybox.WatchUi;
 import Toybox.Application;
 import Toybox.Application.Storage;
 import Toybox.Position;
+import Toybox.Attention;
 
 var match_dates = [] as Array<String>;
 var global_records = [] as Array<Dictionary<String, String>>;
@@ -69,4 +70,20 @@ function persistentData() as Void {
 
 function defaultData() as Void {
     Storage.clearValues();
+}
+
+function playVibate() as Void {
+    if (Attention has :vibrate) {
+        var vibrateData = [
+                new Attention.VibeProfile(25, 100),
+                new Attention.VibeProfile(50, 100),
+                new Attention.VibeProfile(75, 100),
+                new Attention.VibeProfile(100, 100),
+                new Attention.VibeProfile(75, 100),
+                new Attention.VibeProfile(50, 100),
+                new Attention.VibeProfile(25, 100)
+                ];
+
+        Attention.vibrate(vibrateData);
+    }
 }

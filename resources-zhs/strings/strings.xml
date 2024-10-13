@@ -4,12 +4,11 @@
     <string id="Home">看台</string>
     <string id="Away">学校</string>
     
-    <string id="score_separator"> - </string>
-    <string id="Prompt">点击 “开始” 开始记录</string>
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">点击 “START” 开始\n长按 “UP” 查看记录</string>
 
-    <string id="menu_label_records">历史记录</string>
-    <string id="menu_label_default">清空数据</string>
-    <string id="menu_label_exit">退出</string>
+    <string id="Continue">继续</string>
+    <string id="Save">保存</string>
     <string id="Confirm">确定</string>
     <string id="Cancel">取消</string>
     <string id="Start">运动开始</string>

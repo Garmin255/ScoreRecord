@@ -4,12 +4,11 @@
     <string id="Home">Home</string>
     <string id="Away">Away</string>
     
-    <string id="score_separator"> - </string>
+    <string id="ScoreSeparator"> - </string>
     <string id="Prompt">Press the "Start" button\nLong Press "UP" button</string>
 
-    <string id="menu_label_records">Records</string>
-    <string id="menu_label_default">Defaults</string>
-    <string id="menu_label_exit">Exit</string>
+    <string id="Continue">Continue</string>
+    <string id="Save">Save</string>
     <string id="Confirm">Confirm</string>
     <string id="Cancel">Cancel</string>
     <string id="Start">Start</string>

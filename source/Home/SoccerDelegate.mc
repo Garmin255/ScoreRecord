@@ -25,7 +25,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onMenu() as Boolean {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new SoccerMenuDelegate(), WatchUi.SLIDE_UP);
+        WatchUi.pushView(new Rez.Menus.MainMenu(), new SoccerMenuDelegate(_view), WatchUi.SLIDE_UP);
         return true;
     }
 
@@ -58,7 +58,6 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     public function onSelect() as Boolean {
-        WatchUi.requestUpdate();
         var nowStr = nowString();
         if (!_view.isSessionRecording()) {
             $.global_records = [];
@@ -73,19 +72,17 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
             if (Toybox has :ActivityRecording) {
                 _view.startRecording();
             }
-        } else { 
+        } else {
             $.global_records.add({"stop_time" => nowStr});
             if (Attention has :playTone) {
-                Attention.playTone(Attention.TONE_STOP);
+                Attention.playTone(Attention.TONE_LOUD_BEEP);
             }
             persistentData();
             playVibate();
             WatchUi.showToast(_stopString, { :icon => null });
-            WatchUi.pushView(new Rez.Menus.MainMenu(), new SoccerMenuDelegate(), WatchUi.SLIDE_UP);
-            if (Toybox has :ActivityRecording) {
-                _view.stopRecording();
-            }
+            WatchUi.pushView(new Rez.Menus.MainMenu(), new SoccerMenuDelegate(_view), WatchUi.SLIDE_UP);
         }
+        WatchUi.requestUpdate();
         return true;
     }
 
@@ -102,21 +99,5 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
                 today.sec.format("%02d"),
             ]
         );
-    }
-
-    public function playVibate() as Void {
-        if (Attention has :vibrate) {
-            var vibrateData = [
-                    new Attention.VibeProfile(25, 100),
-                    new Attention.VibeProfile(50, 100),
-                    new Attention.VibeProfile(75, 100),
-                    new Attention.VibeProfile(100, 100),
-                    new Attention.VibeProfile(75, 100),
-                    new Attention.VibeProfile(50, 100),
-                    new Attention.VibeProfile(25, 100)
-                    ];
-
-            Attention.vibrate(vibrateData);
-        }
     }
 }

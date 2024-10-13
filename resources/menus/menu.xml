@@ -1,5 +1,6 @@
 <menu id="MainMenu">
-    <menu-item id="item_records" label="@Strings.menu_label_records" />
-    <menu-item id="item_default" label="@Strings.menu_label_default" />
-    <menu-item id="item_exit" label="@Strings.menu_label_exit" />
+    <menu-item id="item_continue" label="@Strings.Continue" />
+    <menu-item id="item_save" label="@Strings.Save" />
+    <menu-item id="item_records" label="@Strings.Records" />
+    <menu-item id="item_default" label="@Strings.Defaults" />
 </menu>
