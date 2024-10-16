@@ -64,7 +64,9 @@ function recordsInformation() as String {
 
 function persistentData() as Void {
     Storage.setValue("match_datas", $.match_datas);
-    Storage.setValue($.match_datas[$.match_datas.size()-1], $.match_records);
+    if ($.match_datas.size() > 0) {
+        Storage.setValue($.match_datas[$.match_datas.size()-1], $.match_records);
+    }
 }
 
 function resetData() as Void {

@@ -100,6 +100,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
             WatchUi.showToast(_stopString, { :icon => null });
             WatchUi.pushView(new Rez.Menus.MainMenu(), new SoccerMenuDelegate(_view), WatchUi.SLIDE_UP);
         }
+        _view.updateGoals();
         WatchUi.requestUpdate();
         return true;
     }
