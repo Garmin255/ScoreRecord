@@ -42,6 +42,8 @@ I currently do not plan to continue the development, so I will open source it fo
 
 ![Menu](Screenshots/Menu.png)
 
+![Records](Screenshots/Records.png)
+
 ![Record](Screenshots/Record.png)
 
 ![Report](Screenshots/Report.png)

@@ -159,7 +159,7 @@ class SoccerView extends WatchUi.View {
             var tips = new WatchUi.Text({
                 :text => WatchUi.loadResource(Rez.Strings.Prompt),
                 :color => Graphics.COLOR_BLUE,
-                :font => Graphics.FONT_MEDIUM,
+                :font => Graphics.FONT_AUX3,
                 :locX => (dc.getWidth() / 2),
                 :locY => (dc.getHeight() / 2),
                 :justification => (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER)
