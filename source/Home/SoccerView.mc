@@ -5,12 +5,17 @@ import Toybox.ActivityRecording;
 import Toybox.Activity;
 import Toybox.System;
 import Toybox.Timer;
+import Toybox.Ant;
+import Toybox.FitContributor;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 class SoccerView extends WatchUi.View {
     private const METERS_TO_MILES = 0.000621371;
     private const MILLISECONDS_TO_SECONDS = 0.001;
     private var _session as Session?;
     private var _scoreSeparator as String;
+    private var _undoErrorString as String;
 	var homeTeamScore = 0;
 	var awayTeamScore = 0;
 	var lastScored = new [0];
@@ -19,10 +24,15 @@ class SoccerView extends WatchUi.View {
     var matchSeconds =  0;
 	var matchTimer = new Timer.Timer();
     var info as Activity.Info;
+    private const HOME_FIELD_ID = 0;
+    private const AWAY_FIELD_ID = 1;
+    private var _homeFitField as Field?;
+    private var _awayFitField as Field?;
 
     function initialize() {
         View.initialize();
         _scoreSeparator = WatchUi.loadResource($.Rez.Strings.ScoreSeparator) as String;
+        _undoErrorString = WatchUi.loadResource($.Rez.Strings.UndoError) as String;
         setCurrentTime();
         myTimer.start(method(:makeTimeAppear), 1000, true);
     }
@@ -60,6 +70,7 @@ class SoccerView extends WatchUi.View {
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
         updateLabel("id_prompt_label", "");
+
         View.onUpdate(dc);
 
         if (isSessionRecording()) {
@@ -158,7 +169,7 @@ class SoccerView extends WatchUi.View {
     }
 
     function updateGoals() as Void {
-        var _records = $.global_records;
+        var _records = $.match_records;
         homeTeamScore = 0;
         awayTeamScore = 0;
 
@@ -233,10 +244,34 @@ class SoccerView extends WatchUi.View {
     //! Start recording a session
     public function startRecording() as Void {
         _session = ActivityRecording.createSession({:name => "BlueDream", :sport => Activity.SPORT_SOCCER});
+        _homeFitField = _session.createField(
+                WatchUi.loadResource($.Rez.Strings.HomeGoalLabel) as String,
+                HOME_FIELD_ID,
+                FitContributor.DATA_TYPE_FLOAT,
+                {:mesgType=>FitContributor.MESG_TYPE_RECORD, :units=>WatchUi.loadResource($.Rez.Strings.HomeGoalLabel) as String}
+            );
+        _awayFitField = _session.createField(
+                WatchUi.loadResource($.Rez.Strings.AwayGoalLabel) as String,
+                AWAY_FIELD_ID,
+                FitContributor.DATA_TYPE_FLOAT,
+                {:mesgType=>FitContributor.MESG_TYPE_RECORD, :units=>WatchUi.loadResource($.Rez.Strings.AwayGoalLabel) as String}
+            );
         _session.start();
         info = Activity.getActivityInfo();
         matchTimer.start(method(:timerCallback), 1000, true);
         WatchUi.requestUpdate();
+    }
+
+    public function recordHomeGoal() as Void {
+        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var value = today.hour * 10000 + today.min * 100 + today.sec * 1;
+        _homeFitField.setData(value as Object); 
+    }
+
+    public function recordAwayGoal() as Void {
+        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var value = today.hour * 10000 + today.min * 100 + today.sec * 1;
+        _awayFitField.setData(value as Object); 
     }
 
     public function isSessionRecording() as Boolean {
@@ -244,5 +279,20 @@ class SoccerView extends WatchUi.View {
             return _session.isRecording();
         }
         return false;
+    }
+
+    public function undo() as Void {
+        var _records = $.match_records;
+        var record = _records[_records.size()-1] as Dictionary<String, String>;
+        if (record.hasKey("home_goal")) {
+            _records.remove(record);
+        } else if (record.hasKey("away_goal")) {
+            _records.remove(record);
+        } else {
+            WatchUi.showToast(_undoErrorString, { :icon => null });
+        }
+        persistentData();
+        updateGoals();
+    	WatchUi.requestUpdate();
     }
 }

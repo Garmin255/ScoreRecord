@@ -1,0 +1,10 @@
+<resources>
+    <fitContributions>
+        <fitField id="0" displayInChart="true" sortOrder = "0" precision="2"
+                  chartTitle="@Strings.HomeGoalLabel" dataLabel="@Strings.HomeGoalLabel"
+                  unitLabel="@Strings.HomeGoalTimeLabel" fillColor="#00FF00" />
+        <fitField id="1" displayInChart="true" sortOrder = "1" precision="2"
+                  chartTitle="@Strings.AwayGoalLabel" dataLabel="@Strings.AwayGoalLabel"
+                  unitLabel="@Strings.AwayGoalTimeLabel" fillColor="#00FF00" />
+    </fitContributions>
+</resources>

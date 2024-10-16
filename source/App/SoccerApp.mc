@@ -6,8 +6,8 @@ import Toybox.Application.Storage;
 import Toybox.Position;
 import Toybox.Attention;
 
-var match_dates = [] as Array<String>;
-var global_records = [] as Array<Dictionary<String, String>>;
+var match_datas = [] as Array<String>;
+var match_records = [] as Array<Dictionary<String, String>>;
 
 class SoccerApp extends Application.AppBase {
     var _soccerView as SoccerView?;
@@ -16,13 +16,12 @@ class SoccerApp extends Application.AppBase {
         AppBase.initialize();
     }
 
-
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
         Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:onPosition));
-        var value = Storage.getValue("match_dates");
+        var value = Storage.getValue("match_datas");
         if (value != null) {
-            match_dates = value;
+            match_datas = value;
         }
     }
 
@@ -54,8 +53,8 @@ function getApp() as SoccerApp {
 
 function recordsInformation() as String {
     var result = "";
-    for (var i = 0; i < $.global_records.size(); i++) {
-        var record = $.global_records[i] as Dictionary<String, String>;
+    for (var i = 0; i < $.match_records.size(); i++) {
+        var record = $.match_records[i] as Dictionary<String, String>;
         var keys = record.keys(); 
         result += keys[0] + ": " + record.get(keys[0]) + "\n";
         
@@ -64,12 +63,20 @@ function recordsInformation() as String {
 }
 
 function persistentData() as Void {
-    Storage.setValue("match_dates", $.match_dates);
-    Storage.setValue($.match_dates[$.match_dates.size()-1], $.global_records);
+    Storage.setValue("match_datas", $.match_datas);
+    Storage.setValue($.match_datas[$.match_datas.size()-1], $.match_records);
 }
 
-function defaultData() as Void {
+function resetData() as Void {
     Storage.clearValues();
+}
+
+function removeLastMatchData() as Void {
+    if ($.match_datas.size() > 0) {
+        var last_data = $.match_datas[$.match_datas.size() - 1];
+        Storage.deleteValue(last_data);
+        $.match_datas.remove(last_data);
+    }
 }
 
 function playVibate() as Void {

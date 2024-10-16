@@ -9,10 +9,19 @@
 
     <string id="Continue">Continue</string>
     <string id="Save">Save</string>
+    <string id="GiveUp">Give Up</string>
+    <string id="Records">Records</string>
+    <string id="Reset">Reset Data</string>
+    <string id="Exit">Exit</string>
+
     <string id="Confirm">Confirm</string>
-    <string id="Cancel">Cancel</string>
     <string id="Start">Start</string>
     <string id="Stop">Stop</string>
-    <string id="Records">Records</string>
-    <string id="Defaults">Defaults</string>
+    <string id="HomeGoalLabel">Home Goal</string>
+    <string id="AwayGoalLabel">Away Goal</string>
+    <string id="HomeGoalTimeLabel">Home Time</string>
+    <string id="AwayGoalTimeLabel">Away Time</string>
+    <string id="Undo">Cancel Goal</string>
+    <string id="UndoError">Cancel Error</string>
+    <string id="NoRecords">No Records</string>
 </strings>

@@ -5,6 +5,7 @@ using Toybox.Time;
 using Toybox.Time.Gregorian;
 import Toybox.Application;
 import Toybox.Application.Storage;
+import Toybox.Timer;
 
 class SoccerDelegate extends WatchUi.BehaviorDelegate {
     private var _view as SoccerView;
@@ -13,6 +14,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     private var _stopString as String;
     private var _homeString as String;
     private var _awayString as String;
+    private var _undoString as String;
 
     function initialize(view as SoccerView) {
         BehaviorDelegate.initialize();
@@ -22,6 +24,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
         _stopString = WatchUi.loadResource($.Rez.Strings.Stop) as String;
         _homeString = WatchUi.loadResource($.Rez.Strings.Home) as String;
         _awayString = WatchUi.loadResource($.Rez.Strings.Away) as String;
+        _undoString = WatchUi.loadResource($.Rez.Strings.Undo) as String;
     }
 
     function onMenu() as Boolean {
@@ -30,8 +33,10 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     public function onPreviousPage() as Boolean {
+        var nowStr = nowString();
         if (_view.isSessionRecording()) {
-            $.global_records.add({"home_goal" => nowString()});
+            $.match_records.add({"home_goal" => nowStr});
+            _view.recordHomeGoal();
             WatchUi.showToast(_homeString, { :icon => null });
             playVibate();
             Attention.playTone(Attention.TONE_SUCCESS);
@@ -44,8 +49,10 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     public function onNextPage() as Boolean {
+        var nowStr = nowString();
         if (_view.isSessionRecording()) {
-            $.global_records.add({"away_goal" => nowString()});
+            $.match_records.add({"away_goal" => nowStr});
+            _view.recordAwayGoal();
             WatchUi.showToast(_awayString, { :icon => null });
             playVibate();
             Attention.playTone(Attention.TONE_FAILURE);
@@ -57,15 +64,26 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
+    public function onBack() as Lang.Boolean {
+        pushDialog();
+        return true;
+    }
+
+    private function pushDialog() as Boolean {
+        var dialog = new WatchUi.Confirmation(_undoString);
+        WatchUi.pushView(dialog, new $.UndoDialogDelegate(_view), WatchUi.SLIDE_IMMEDIATE);
+        return true;
+    }
+
     public function onSelect() as Boolean {
         var nowStr = nowString();
         if (!_view.isSessionRecording()) {
-            $.global_records = [];
-            $.global_records.add({"start_time" => nowStr});
+            $.match_records = [];
+            $.match_records.add({"start_time" => nowStr});
             if (Attention has :playTone) {
                 Attention.playTone(Attention.TONE_START);
             }
-            $.match_dates.add(nowStr);
+            $.match_datas.add(nowStr);
             persistentData();
             playVibate();
             WatchUi.showToast(_startString, { :icon => null });
@@ -73,7 +91,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
                 _view.startRecording();
             }
         } else {
-            $.global_records.add({"stop_time" => nowStr});
+            $.match_records.add({"stop_time" => nowStr});
             if (Attention has :playTone) {
                 Attention.playTone(Attention.TONE_LOUD_BEEP);
             }
@@ -86,7 +104,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
-    public function nowString() as String { 
+    public function nowString() as String {
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         return Lang.format(
             "$1$-$2$-$3$ $4$:$5$:$6$",

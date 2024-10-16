@@ -9,10 +9,19 @@
 
     <string id="Continue">继续</string>
     <string id="Save">保存</string>
+    <string id="GiveUp">放弃</string>
+    <string id="Records">进球记录</string>
+    <string id="Reset">清空数据</string>
+    <string id="Exit">退出</string>
+
     <string id="Confirm">确定</string>
-    <string id="Cancel">取消</string>
     <string id="Start">运动开始</string>
     <string id="Stop">运动结束</string>
-    <string id="Records">进球记录</string>
-    <string id="Defaults">清空数据</string>
+    <string id="HomeGoalLabel">看台 进球</string>
+    <string id="AwayGoalLabel">学校 进球</string>
+    <string id="HomeGoalTimeLabel">看台 时间</string>
+    <string id="AwayGoalTimeLabel">学校 时间</string>
+    <string id="Undo">取消进球</string>
+    <string id="UndoError">取消错误</string>
+    <string id="NoRecords">没有进球记录</string>
 </strings>

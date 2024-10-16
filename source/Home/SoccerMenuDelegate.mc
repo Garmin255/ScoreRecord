@@ -5,64 +5,91 @@ import Toybox.WatchUi;
 class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
     private var _view as SoccerView;
     private var _recordsString as String;
-    private var _defaultsString as String;
+    private var _resetString as String;
     private var _startString as String;
     private var _stopString as String;
+    private var _giveUpString as String;
     private var _homeString as String;
     private var _awayString as String;
-
+    private var _noRecordsString as String;
 
     function initialize(view as SoccerView) {
         MenuInputDelegate.initialize();
         _view = view;
         _recordsString = WatchUi.loadResource($.Rez.Strings.Records) as String;
-        _defaultsString = WatchUi.loadResource($.Rez.Strings.Defaults) as String;
+        _resetString = WatchUi.loadResource($.Rez.Strings.Reset) as String;
         _startString = WatchUi.loadResource($.Rez.Strings.Start) as String;
         _stopString = WatchUi.loadResource($.Rez.Strings.Stop) as String;
+        _giveUpString = WatchUi.loadResource($.Rez.Strings.GiveUp) as String;
         _homeString = WatchUi.loadResource($.Rez.Strings.Home) as String;
         _awayString = WatchUi.loadResource($.Rez.Strings.Away) as String;
+        _noRecordsString = WatchUi.loadResource($.Rez.Strings.NoRecords) as String;
     }
 
     function onMenuItem(item as Symbol) as Void {
+        var records = $.match_records;
         if (item == :item_continue) {
             System.println("Continue");
-            var lastRecord = $.global_records[$.global_records.size()-1];
-            if (lastRecord.hasKey("stop_time")) {
-                $.global_records.remove(lastRecord);
+            if (_view.isSessionRecording()) {
+                var lastRecord = records[records.size()-1];
+                if (lastRecord.hasKey("stop_time")) {
+                    records.remove(lastRecord);
+                }
             }
         } else if (item == :item_save) {
             System.println("Save");
-            if (Attention has :playTone) {
-                Attention.playTone(Attention.TONE_STOP);
+            if (_view.isSessionRecording()) {
+                if (Attention has :playTone) {
+                    Attention.playTone(Attention.TONE_STOP);
+                }
+                persistentData();
+                playVibate();
+                WatchUi.showToast(_stopString, { :icon => null });
+                if (Toybox has :ActivityRecording) {
+                    _view.stopRecording();
+                }
+                showReport();
             }
-            persistentData();
-            playVibate();
-            WatchUi.showToast(_stopString, { :icon => null });
-            if (Toybox has :ActivityRecording) {
-                _view.stopRecording();
+        } else if (item == :item_giveup) {
+            if (_view.isSessionRecording()) {
+                if (Attention has :playTone) {
+                    Attention.playTone(Attention.TONE_RESET);
+                }
+                removeLastMatchData();
+                persistentData();
+                playVibate();
+                WatchUi.showToast(_giveUpString, { :icon => null });
+                if (Toybox has :ActivityRecording) {
+                    _view.stopRecording();
+                }
             }
-            showReport();
         } else if (item == :item_records) {
             System.println("Records");
             var mainMenu = new WatchUi.Menu2({:title=>_recordsString});
-            for (var i = 0; i < $.match_dates.size(); i++) {
-                var match_date = $.match_dates[i] as String;
-                mainMenu.addItem(new WatchUi.MenuItem(match_date, null, null, null));
+            if ($.match_datas.size() > 0) {
+                for (var i = 0; i < $.match_datas.size(); i++) {
+                    var match_date = $.match_datas[i] as String;
+                    mainMenu.addItem(new WatchUi.MenuItem(match_date, null, null, null));
+                }
+                WatchUi.pushView(mainMenu, new $.RecordsMenu2Delegate(), WatchUi.SLIDE_UP);
+            } else {
+                WatchUi.showToast(_noRecordsString, { :icon => null });
             }
-            WatchUi.pushView(mainMenu, new $.RecordsMenu2Delegate(), WatchUi.SLIDE_UP);
-        } else if (item == :item_default) {
-            pushDialog();
+        } else if (item == :item_reset) {
+            pushDialog(true);
+        } else if (item == :item_exit) {
+            pushDialog(false);
         }
     }
 
-    private function pushDialog() as Boolean {
-        var dialog = new WatchUi.Confirmation(_defaultsString);
-        WatchUi.pushView(dialog, new $.ConfirmationDialogDelegate(), WatchUi.SLIDE_IMMEDIATE);
+    private function pushDialog(shouldResetFectory as Boolean) as Boolean {
+        var dialog = new WatchUi.Confirmation(_resetString);
+        WatchUi.pushView(dialog, new $.ConfirmationDialogDelegate(shouldResetFectory), WatchUi.SLIDE_IMMEDIATE);
         return true;
     }
 
     private function showReport() as Void {
-        var records = $.global_records;
+        var records = $.match_records;
         var start_time = "";
         var stop_time = "";
         var home_goal = "";
