@@ -6,6 +6,7 @@ class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
     private var _view as SoccerView;
     private var _recordsString as String;
     private var _resetString as String;
+    private var _exitString as String;
     private var _startString as String;
     private var _stopString as String;
     private var _giveUpString as String;
@@ -18,6 +19,7 @@ class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
         _view = view;
         _recordsString = WatchUi.loadResource($.Rez.Strings.Records) as String;
         _resetString = WatchUi.loadResource($.Rez.Strings.Reset) as String;
+        _exitString = WatchUi.loadResource($.Rez.Strings.Exit) as String;
         _startString = WatchUi.loadResource($.Rez.Strings.Start) as String;
         _stopString = WatchUi.loadResource($.Rez.Strings.Stop) as String;
         _giveUpString = WatchUi.loadResource($.Rez.Strings.GiveUp) as String;
@@ -76,15 +78,15 @@ class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
                 WatchUi.showToast(_noRecordsString, { :icon => null });
             }
         } else if (item == :item_reset) {
-            pushDialog(true);
+            pushDialog(_resetString, true);
         } else if (item == :item_exit) {
-            pushDialog(false);
+            pushDialog(_exitString, false);
         }
     }
 
-    private function pushDialog(shouldResetFectory as Boolean) as Boolean {
-        var dialog = new WatchUi.Confirmation(_resetString);
-        WatchUi.pushView(dialog, new $.ConfirmationDialogDelegate(shouldResetFectory), WatchUi.SLIDE_IMMEDIATE);
+    private function pushDialog(confirmInfo as String, shouldResetData as Boolean) as Boolean {
+        var dialog = new WatchUi.Confirmation(confirmInfo);
+        WatchUi.pushView(dialog, new $.ConfirmationDialogDelegate(shouldResetData), WatchUi.SLIDE_IMMEDIATE);
         return true;
     }
 
