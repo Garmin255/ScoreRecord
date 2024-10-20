@@ -3,6 +3,12 @@
 
     <string id="Home">主队</string>
     <string id="Away">客队</string>
+
+    <string id="Home1">球队1</string>
+    <string id="Away1">球队2</string>
+
+    <string id="Home2">看台</string>
+    <string id="Away2">学校</string>
     
     <string id="ScoreSeparator"> - </string>
     <string id="Prompt">点击 “START” 开始\n长按 “UP” 查看记录</string>

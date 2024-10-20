@@ -3,6 +3,12 @@
 
     <string id="Home">Home</string>
     <string id="Away">Away</string>
+
+    <string id="Home1">Team1</string>
+    <string id="Away1">Team2</string>
+
+    <string id="Home2">Stand</string>
+    <string id="Away2">School</string>
     
     <string id="ScoreSeparator"> - </string>
     <string id="Prompt">Press the "START" button\nLong Press "UP" button</string>

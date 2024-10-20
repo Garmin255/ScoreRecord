@@ -28,7 +28,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onMenu() as Boolean {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new SoccerMenuDelegate(_view), WatchUi.SLIDE_UP);
+        WatchUi.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(_view), WatchUi.SLIDE_UP);
         return true;
     }
 
@@ -98,7 +98,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
             persistentData();
             playVibate();
             WatchUi.showToast(_stopString, { :icon => null });
-            WatchUi.pushView(new Rez.Menus.MainMenu(), new SoccerMenuDelegate(_view), WatchUi.SLIDE_UP);
+            WatchUi.pushView(new Rez.Menus.SoccerMenu(), new SoccerMenuDelegate(_view), WatchUi.SLIDE_UP);
         }
         _view.updateGoals();
         WatchUi.requestUpdate();

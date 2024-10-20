@@ -1,0 +1,5 @@
+<menu id="SoccerMenu">
+    <menu-item id="item_continue" label="@Strings.Continue" />
+    <menu-item id="item_save" label="@Strings.Save" />
+    <menu-item id="item_giveup" label="@Strings.GiveUp" />
+</menu>

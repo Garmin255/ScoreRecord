@@ -9,6 +9,14 @@ import Toybox.Attention;
 var match_datas = [] as Array<String>;
 var match_records = [] as Array<Dictionary<String, String>>;
 
+enum {
+    HOME_AWAY,
+    TEAM1_TEAM2,
+    SCHOOL_STAND,
+}
+
+var teamIndex = $.HOME_AWAY;
+
 class SoccerApp extends Application.AppBase {
     var _soccerView as SoccerView?;
 
@@ -22,6 +30,10 @@ class SoccerApp extends Application.AppBase {
         var value = Storage.getValue("match_datas");
         if (value != null) {
             match_datas = value;
+        }
+        value =  Storage.getValue("team_index");
+        if (value != null) {
+            teamIndex = value;
         }
     }
 

@@ -2,7 +2,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
-class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
+class MainMenuDelegate extends WatchUi.MenuInputDelegate {
     private var _view as SoccerView;
     private var _recordsString as String;
     private var _resetString as String;
@@ -29,43 +29,23 @@ class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
     }
 
     function onMenuItem(item as Symbol) as Void {
-        var records = $.match_records;
-        if (item == :item_continue) {
-            System.println("Continue");
-            if (_view.isSessionRecording()) {
-                var lastRecord = records[records.size()-1];
-                if (lastRecord.hasKey("stop_time")) {
-                    records.remove(lastRecord);
+        if (item == :item_records) {
+            System.println("Records");
+            var mainMenu = new WatchUi.Menu2({:title=>_recordsString});
+            if ($.match_datas.size() > 0) {
+                for (var i = 0; i < $.match_datas.size(); i++) {
+                    var match_date = $.match_datas[i] as String;
+                    mainMenu.addItem(new WatchUi.MenuItem(match_date, null, null, null));
                 }
+                WatchUi.pushView(mainMenu, new $.RecordsMenu2Delegate(), WatchUi.SLIDE_UP);
+            } else {
+                WatchUi.showToast(_noRecordsString, { :icon => null });
             }
-        } else if (item == :item_save) {
-            System.println("Save");
-            if (_view.isSessionRecording()) {
-                if (Attention has :playTone) {
-                    Attention.playTone(Attention.TONE_STOP);
-                }
-                persistentData();
-                playVibate();
-                WatchUi.showToast(_stopString, { :icon => null });
-                if (Toybox has :ActivityRecording) {
-                    _view.stopRecording();
-                }
-                showReport();
-            }
-        } else if (item == :item_giveup) {
-            if (_view.isSessionRecording()) {
-                if (Attention has :playTone) {
-                    Attention.playTone(Attention.TONE_RESET);
-                }
-                removeLastMatchData();
-                persistentData();
-                playVibate();
-                WatchUi.showToast(_giveUpString, { :icon => null });
-                if (Toybox has :ActivityRecording) {
-                    _view.stopRecording();
-                }
-            }
-        } 
+        } else if (item == :item_reset) {
+            pushDialog(_resetString, true);
+        } else if (item == :item_exit) {
+            pushDialog(_exitString, false);
+        }
     }
 
     private function pushDialog(confirmInfo as String, shouldResetData as Boolean) as Boolean {
