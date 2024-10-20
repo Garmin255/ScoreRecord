@@ -50,16 +50,10 @@ class MainMenuDelegate extends WatchUi.MenuInputDelegate {
             teamNameMenu.addItem(new WatchUi.MenuItem($.schoolStand, null, 2, null));
             WatchUi.pushView(teamNameMenu, new $.TeamNameMenu2Delegate(), WatchUi.SLIDE_UP);
         } else if (item == :item_reset) {
-            pushDialog(_resetString, true);
+            $.pushComfirmDialog(_resetString, true);
         } else if (item == :item_exit) {
-            pushDialog(_exitString, false);
+            $.pushComfirmDialog(_exitString, false);
         }
-    }
-
-    private function pushDialog(confirmInfo as String, shouldResetData as Boolean) as Boolean {
-        var dialog = new WatchUi.Confirmation(confirmInfo);
-        WatchUi.pushView(dialog, new $.ConfirmationDialogDelegate(shouldResetData), WatchUi.SLIDE_IMMEDIATE);
-        return true;
     }
 
     private function showReport() as Void {

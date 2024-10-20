@@ -158,3 +158,9 @@ public function getTeamIndex() {
             break;
     }
 }
+
+function pushComfirmDialog(confirmInfo as String, shouldResetData as Boolean) as Boolean {
+    var dialog = new WatchUi.Confirmation(confirmInfo);
+    WatchUi.pushView(dialog, new $.ConfirmationDialogDelegate(shouldResetData), WatchUi.SLIDE_IMMEDIATE);
+    return true;
+}

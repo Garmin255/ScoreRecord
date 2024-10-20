@@ -15,6 +15,8 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     private var _homeString as String;
     private var _awayString as String;
     private var _undoString as String;
+    private var _exitString as String;
+    private var _hasRecordsString as String;
 
     function initialize(view as SoccerView) {
         BehaviorDelegate.initialize();
@@ -25,10 +27,17 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
         _homeString = $.homeString;
         _awayString = $.awayString;
         _undoString = WatchUi.loadResource($.Rez.Strings.Undo) as String;
+        _exitString = WatchUi.loadResource($.Rez.Strings.Exit) as String;
+        _hasRecordsString = WatchUi.loadResource($.Rez.Strings.hasRecords) as String;
     }
 
     function onMenu() as Boolean {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(_view), WatchUi.SLIDE_UP);
+        if (_view.isSessionRecording()) {
+            WatchUi.showToast(_hasRecordsString, { :icon => null });
+        } else {
+            WatchUi.pushView(new Rez.Menus.MainMenu(), new MainMenuDelegate(_view), WatchUi.SLIDE_UP);
+        }
+
         return true;
     }
 
@@ -65,11 +74,15 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     }
 
     public function onBack() as Lang.Boolean {
-        pushDialog();
+        if (_view.isSessionRecording()) {
+            pushUndoDialog();
+        } else {
+            $.pushComfirmDialog(_exitString, false);
+        }
         return true;
     }
 
-    private function pushDialog() as Boolean {
+    private function pushUndoDialog() as Boolean {
         var dialog = new WatchUi.Confirmation(_undoString);
         WatchUi.pushView(dialog, new $.UndoDialogDelegate(_view), WatchUi.SLIDE_IMMEDIATE);
         return true;
