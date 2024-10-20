@@ -165,6 +165,16 @@ class SoccerView extends WatchUi.View {
                 :justification => (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER)
             });
             tips.draw(dc);
+
+            var time = new WatchUi.Text({
+                :text => currentTime,
+                :color => Graphics.COLOR_LT_GRAY,
+                :font => Graphics.FONT_LARGE,
+                :locX => (dc.getWidth() / 2),
+                :locY => (dc.getHeight() / 10) * 9,
+                :justification => Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+            });
+            time.draw(dc);
         }
     }
 
