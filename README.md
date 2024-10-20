@@ -1,6 +1,12 @@
 # Soccer Score
 ---
 
+## ConnectIQ Store
+
+[Goal Record](https://apps.garmin.com/en-US/apps/b4cb31e3-5b7e-4dfb-ad66-e21d747575ba)
+
+![ConnectIQ](Screenshots/ConnectIQ.png)
+
 ## Short Story 小故事
 
 I bought the Garmin Forerunner 255 to record my football data, but the original app doesn't support recording the time of goals and the teams.
@@ -34,7 +40,7 @@ I currently do not plan to continue the development, so I will open source it fo
 
 目前不打算继续开发了，开源出来供大家参考。
 
-## Scroonshots
+## Screenshots
 
 ![Home](Screenshots/Home.png)
 
