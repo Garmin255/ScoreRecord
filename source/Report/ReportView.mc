@@ -21,8 +21,9 @@ class ReportView extends WatchUi.View {
     function initialize(records as Array<Dictionary<String, String>>) {
         View.initialize();
         _records = records;
-        _homeString = WatchUi.loadResource($.Rez.Strings.Home) as String;
-        _awayString = WatchUi.loadResource($.Rez.Strings.Away) as String;
+        
+        _homeString = $.homeString;
+        _awayString = $.awayString;
     }
     
     function getReportType(reportType as ReportType) as String {

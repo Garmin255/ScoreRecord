@@ -13,6 +13,7 @@ class MainMenuDelegate extends WatchUi.MenuInputDelegate {
     private var _homeString as String;
     private var _awayString as String;
     private var _noRecordsString as String;
+    private var _teamName as String;
 
     function initialize(view as SoccerView) {
         MenuInputDelegate.initialize();
@@ -23,24 +24,31 @@ class MainMenuDelegate extends WatchUi.MenuInputDelegate {
         _startString = WatchUi.loadResource($.Rez.Strings.Start) as String;
         _stopString = WatchUi.loadResource($.Rez.Strings.Stop) as String;
         _giveUpString = WatchUi.loadResource($.Rez.Strings.GiveUp) as String;
-        _homeString = WatchUi.loadResource($.Rez.Strings.Home) as String;
-        _awayString = WatchUi.loadResource($.Rez.Strings.Away) as String;
+        _homeString = $.homeString;
+        _awayString = $.awayString;
         _noRecordsString = WatchUi.loadResource($.Rez.Strings.NoRecords) as String;
+        _teamName = WatchUi.loadResource($.Rez.Strings.TeamName) as String;
     }
 
     function onMenuItem(item as Symbol) as Void {
         if (item == :item_records) {
             System.println("Records");
-            var mainMenu = new WatchUi.Menu2({:title=>_recordsString});
+            var recordsMenu = new WatchUi.Menu2({:title=>_recordsString});
             if ($.match_datas.size() > 0) {
                 for (var i = 0; i < $.match_datas.size(); i++) {
                     var match_date = $.match_datas[i] as String;
-                    mainMenu.addItem(new WatchUi.MenuItem(match_date, null, null, null));
+                    recordsMenu.addItem(new WatchUi.MenuItem(match_date, null, null, null));
                 }
-                WatchUi.pushView(mainMenu, new $.RecordsMenu2Delegate(), WatchUi.SLIDE_UP);
+                WatchUi.pushView(recordsMenu, new $.RecordsMenu2Delegate(), WatchUi.SLIDE_UP);
             } else {
                 WatchUi.showToast(_noRecordsString, { :icon => null });
             }
+        } else if (item == :item_team_name) {
+            var teamNameMenu = new WatchUi.Menu2({:title=>_teamName});
+            teamNameMenu.addItem(new WatchUi.MenuItem($.homeAway, null, 0, null));
+            teamNameMenu.addItem(new WatchUi.MenuItem($.team1Team2, null, 1, null));
+            teamNameMenu.addItem(new WatchUi.MenuItem($.schoolStand, null, 2, null));
+            WatchUi.pushView(teamNameMenu, new $.TeamNameMenu2Delegate(), WatchUi.SLIDE_UP);
         } else if (item == :item_reset) {
             pushDialog(_resetString, true);
         } else if (item == :item_exit) {

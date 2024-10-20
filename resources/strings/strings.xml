@@ -1,6 +1,8 @@
 <strings>
     <string id="AppName">Goal Record</string>
 
+    <string id="TeamName">Team Name</string>
+
     <string id="Home">Home</string>
     <string id="Away">Away</string>
 

@@ -16,8 +16,8 @@ class SoccerView extends WatchUi.View {
     private var _session as Session?;
     private var _scoreSeparator as String;
     private var _undoErrorString as String;
-    private var _home as String;
-    private var _away as String;
+    private var _homeString as String;
+    private var _awayString as String;
 	var homeTeamScore = 0;
 	var awayTeamScore = 0;
 	var lastScored = new [0];
@@ -35,20 +35,6 @@ class SoccerView extends WatchUi.View {
         View.initialize();
         _scoreSeparator = WatchUi.loadResource($.Rez.Strings.ScoreSeparator) as String;
         _undoErrorString = WatchUi.loadResource($.Rez.Strings.UndoError) as String;
-        switch ($.teamIndex) {
-            case $.TEAM1_TEAM2:
-                _home = WatchUi.loadResource(Rez.Strings.Home1);
-                _away = WatchUi.loadResource(Rez.Strings.Away1);
-                break;
-            case $.SCHOOL_STAND:
-                _home = WatchUi.loadResource(Rez.Strings.Home2);
-                _away = WatchUi.loadResource(Rez.Strings.Away2);
-                break;
-            case $.HOME_AWAY:
-                _home = WatchUi.loadResource(Rez.Strings.Home);
-                _away = WatchUi.loadResource(Rez.Strings.Away);
-                break;
-        }
         setCurrentTime();
         myTimer.start(method(:makeTimeAppear), 1000, true);
     }
@@ -80,6 +66,8 @@ class SoccerView extends WatchUi.View {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
+        _homeString = $.homeString;
+        _awayString = $.awayString;
     }
 
     // Update the view
@@ -106,7 +94,7 @@ class SoccerView extends WatchUi.View {
             dc.drawLine(0, (dc.getHeight() / 5) * 1, dc.getWidth(), (dc.getHeight() / 5) * 1);
 
             var homeTeamText = new WatchUi.Text({
-                :text => WatchUi.loadResource(Rez.Strings.Home),
+                :text => _homeString,
                 :color => Graphics.COLOR_GREEN,
                 :font => Graphics.FONT_MEDIUM,
                 :locX => (dc.getWidth() / 2) - 30,
@@ -114,9 +102,9 @@ class SoccerView extends WatchUi.View {
                 :justification => Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER
             });
             homeTeamText.draw(dc);
-            
+
             var awayTeamText = new WatchUi.Text({
-                :text => WatchUi.loadResource(Rez.Strings.Away),
+                :text => _awayString,
                 :color => Graphics.COLOR_BLUE,
                 :font => Graphics.FONT_MEDIUM,
                 :locX => (dc.getWidth() / 2) + 30,

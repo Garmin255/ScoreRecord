@@ -4,9 +4,6 @@ import Toybox.WatchUi;
 
 class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
     private var _view as SoccerView;
-    private var _recordsString as String;
-    private var _resetString as String;
-    private var _exitString as String;
     private var _startString as String;
     private var _stopString as String;
     private var _giveUpString as String;
@@ -17,14 +14,11 @@ class SoccerMenuDelegate extends WatchUi.MenuInputDelegate {
     function initialize(view as SoccerView) {
         MenuInputDelegate.initialize();
         _view = view;
-        _recordsString = WatchUi.loadResource($.Rez.Strings.Records) as String;
-        _resetString = WatchUi.loadResource($.Rez.Strings.Reset) as String;
-        _exitString = WatchUi.loadResource($.Rez.Strings.Exit) as String;
         _startString = WatchUi.loadResource($.Rez.Strings.Start) as String;
         _stopString = WatchUi.loadResource($.Rez.Strings.Stop) as String;
         _giveUpString = WatchUi.loadResource($.Rez.Strings.GiveUp) as String;
-        _homeString = WatchUi.loadResource($.Rez.Strings.Home) as String;
-        _awayString = WatchUi.loadResource($.Rez.Strings.Away) as String;
+        _homeString = $.homeString;
+        _awayString = $.awayString;
         _noRecordsString = WatchUi.loadResource($.Rez.Strings.NoRecords) as String;
     }
 

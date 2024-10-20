@@ -16,6 +16,12 @@ enum {
 }
 
 var teamIndex = $.HOME_AWAY;
+var homeString as String;
+var awayString as String;
+
+var homeAway as String;
+var team1Team2 as String;
+var schoolStand as String;
 
 class SoccerApp extends Application.AppBase {
     var _soccerView as SoccerView?;
@@ -31,10 +37,28 @@ class SoccerApp extends Application.AppBase {
         if (value != null) {
             match_datas = value;
         }
-        value =  Storage.getValue("team_index");
-        if (value != null) {
-            teamIndex = value;
-        }
+        $.getTeamIndex();
+        homeAway = Lang.format(
+            "$1$-$2$",
+            [
+                WatchUi.loadResource(Rez.Strings.Home),
+                WatchUi.loadResource(Rez.Strings.Away)
+            ]
+        );
+        team1Team2 = Lang.format(
+            "$1$-$2$",
+            [
+                WatchUi.loadResource(Rez.Strings.Home1),
+                WatchUi.loadResource(Rez.Strings.Away1)
+            ]
+        );
+        schoolStand = Lang.format(
+            "$1$-$2$",
+            [
+                WatchUi.loadResource(Rez.Strings.Home2),
+                WatchUi.loadResource(Rez.Strings.Away2)
+            ]
+        );
     }
 
     // onStop() is called when your application is exiting
@@ -106,5 +130,31 @@ function playVibate() as Void {
                 ];
 
         Attention.vibrate(vibrateData);
+    }
+}
+
+public function setTeamIndex(index as Number) {
+    Storage.setValue("team_index", index);
+}
+
+public function getTeamIndex() {
+    var value = Storage.getValue("team_index");
+    if (value != null) {
+        teamIndex = value;
+    }
+    switch (teamIndex) {
+        case $.TEAM1_TEAM2:
+            homeString = WatchUi.loadResource(Rez.Strings.Home1);
+            awayString = WatchUi.loadResource(Rez.Strings.Away1);
+            break;
+        case $.SCHOOL_STAND:
+            homeString = WatchUi.loadResource(Rez.Strings.Home2);
+            awayString = WatchUi.loadResource(Rez.Strings.Away2);
+            break;
+        case $.HOME_AWAY:
+        default:
+            homeString = WatchUi.loadResource(Rez.Strings.Home);
+            awayString = WatchUi.loadResource(Rez.Strings.Away);
+            break;
     }
 }

@@ -22,8 +22,8 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
         _prompString = WatchUi.loadResource($.Rez.Strings.Prompt) as String;
         _startString = WatchUi.loadResource($.Rez.Strings.Start) as String;
         _stopString = WatchUi.loadResource($.Rez.Strings.Stop) as String;
-        _homeString = WatchUi.loadResource($.Rez.Strings.Home) as String;
-        _awayString = WatchUi.loadResource($.Rez.Strings.Away) as String;
+        _homeString = $.homeString;
+        _awayString = $.awayString;
         _undoString = WatchUi.loadResource($.Rez.Strings.Undo) as String;
     }
 

@@ -1,6 +1,8 @@
 <strings>
     <string id="AppName">进球记录</string>
 
+    <string id="TeamName">球队名称</string>
+
     <string id="Home">主队</string>
     <string id="Away">客队</string>
 

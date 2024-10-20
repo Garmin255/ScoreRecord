@@ -24,8 +24,8 @@ class RecordsMenu2Delegate extends WatchUi.Menu2InputDelegate {
         Menu2InputDelegate.initialize();
         _startString = WatchUi.loadResource($.Rez.Strings.Start) as String;
         _stopString = WatchUi.loadResource($.Rez.Strings.Stop) as String;
-        _homeString = WatchUi.loadResource($.Rez.Strings.Home) as String;
-        _awayString = WatchUi.loadResource($.Rez.Strings.Away) as String;
+        _homeString = $.homeString;
+        _awayString = $.awayString;
     }
 
     //! Handle an item being selected
