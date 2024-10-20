@@ -22,6 +22,7 @@ var awayString as String;
 var homeAway as String;
 var team1Team2 as String;
 var schoolStand as String;
+var startTime as String;
 
 class SoccerApp extends Application.AppBase {
     var _soccerView as SoccerView?;

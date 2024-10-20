@@ -93,6 +93,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
         if (!_view.isSessionRecording()) {
             $.match_records = [];
             $.match_records.add({"start_time" => nowStr});
+            $.startTime = nowStr;
             if (Attention has :playTone) {
                 Attention.playTone(Attention.TONE_START);
             }

@@ -127,15 +127,17 @@ class SoccerView extends WatchUi.View {
                 information += position.toDegrees()[0].format("%.2f") + " " + position.toDegrees()[1].format("%.2f") + " ";
             }
 
-            var speed = info.currentSpeed ;
-            if (speed != null) {
-                information += speed.format("%.2f") + " ";
-            }
-
             var elapsedDistance = info.elapsedDistance;
             if (elapsedDistance != null) {
                 elapsedDistance = elapsedDistance * METERS_TO_MILES;
                 information += elapsedDistance.format(".2f") + "m";
+            }
+
+            var speed = info.currentSpeed ;
+            if (speed != null && speed > 0.001) {
+                information += speed.format("%.2f") + " ";
+            } else {
+                information = $.startTime;
             }
             var informationText = new WatchUi.Text({
                 :text => information,
