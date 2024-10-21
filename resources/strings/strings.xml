@@ -33,4 +33,5 @@
     <string id="UndoError">Cancel Error</string>
     <string id="NoRecords">No Records</string>
     <string id="hasRecords">Please Stop</string>
+    <string id="Success">Success</string>
 </strings>

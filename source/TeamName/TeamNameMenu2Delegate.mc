@@ -13,27 +13,23 @@ import Toybox.Position;
 
 //! This is the menu input delegate for the main menu of the application
 class TeamNameMenu2Delegate extends WatchUi.Menu2InputDelegate {
+    private var _success as String;
 
     //! Constructor
     public function initialize() {
         Menu2InputDelegate.initialize();
+        _success = WatchUi.loadResource($.Rez.Strings.Success) as String;
     }
 
     //! Handle an item being selected
     //! @param item The selected menu item
     public function onSelect(item as MenuItem) as Void {
         var index = item.getId() as Number;
-        // swtich (item.getId() as Number) {
-        //     case $.TEAM1_TEAM2:
-        //         break;
-        //     case $.SCHOOL_STAND:
-        //         break;
-        //     case $.HOME_AWAY:
-        //     default:
-        //         break;
-        // }
+        WatchUi.showToast(_success, { :icon => null });
+        
         $.setTeamIndex(index);
         $.getTeamIndex();
+        WatchUi.popView(WatchUi.SLIDE_DOWN);
     }
 
     //! Handle the back key being pressed

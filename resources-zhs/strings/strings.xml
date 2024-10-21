@@ -33,4 +33,5 @@
     <string id="UndoError">取消错误</string>
     <string id="NoRecords">没有进球记录</string>
     <string id="hasRecords">请先停止</string>
+    <string id="Success">成功</string>
 </strings>
