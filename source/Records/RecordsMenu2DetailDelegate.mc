@@ -25,8 +25,15 @@ class RecordsMenu2DetailDelegate extends WatchUi.Menu2InputDelegate {
     //! @param item The selected menu item
     public function onSelect(item as MenuItem) as Void {
         System.println(_records.toString());
-        var view = new $.ReportView(_records);
-        WatchUi.pushView(view, new $.ReportViewDelegate(view), WatchUi.SLIDE_UP);
+        if (WatchUi has :ViewLoop) {
+            $.match_records = _records;
+            var factory = new PageIndicatorFactory();
+            var viewLoop = new WatchUi.ViewLoop(factory, {:page => 0, :wrap => true, :color => Graphics.COLOR_GREEN});
+            WatchUi.pushView(viewLoop, new $.PageIndicatorDelegate(viewLoop), WatchUi.SLIDE_UP);
+        } else {
+            var view = new $.ReportView(_records);
+            WatchUi.pushView(view, new $.ReportViewDelegate(view), WatchUi.SLIDE_UP);
+        }
     }
 
     //! Handle the back key being pressed

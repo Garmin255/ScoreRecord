@@ -33,6 +33,11 @@ The basic features have been implemented.
 1. Show speed or start time
 2. Change team name
 
+### 2024/10/21 v1.2
+
+1. Page Report(LoopView)
+2. Change team name success
+
 ## Screenshots
 
 ![Home](Screenshots/Home.png)
@@ -50,3 +55,5 @@ The basic features have been implemented.
 ![Report](Screenshots/Report.png)
 
 ![TeamName](Screenshots/TeamName.png)
+
+![PageReport](Screenshots/PageReport.png)

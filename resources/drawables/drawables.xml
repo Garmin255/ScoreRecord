@@ -1,4 +1,6 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
     <bitmap id="football" filename="football.png" />
+    <bitmap id="font_football" filename="font_football.png" />
+    <bitmap id="soccer" filename="soccer.png" />
 </drawables>
