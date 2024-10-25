@@ -38,6 +38,14 @@ The basic features have been implemented.
 1. Page Report(LoopView)
 2. Change team name success
 
+### 2024/10/24 v1.3
+
+1. More wear devices
+
+### 2024/10/26 v1.4
+
+1. Types of sport
+
 ## Screenshots
 
 ![Home](Screenshots/Home.png)
@@ -57,3 +65,5 @@ The basic features have been implemented.
 ![TeamName](Screenshots/TeamName.png)
 
 ![PageReport](Screenshots/PageReport.png)
+
+![TypesOfSport](Screenshots/TypesOfSport.png)

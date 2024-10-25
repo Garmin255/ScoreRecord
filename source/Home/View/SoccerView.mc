@@ -259,7 +259,7 @@ class SoccerView extends WatchUi.View {
 
     //! Start recording a session
     public function startRecording() as Void {
-        _session = ActivityRecording.createSession({:name => "BlueDream", :sport => Activity.SPORT_SOCCER});
+        _session = ActivityRecording.createSession({:name => "Goal Record", :sport => $.typesOfSport});
         _homeFitField = _session.createField(
                 WatchUi.loadResource($.Rez.Strings.HomeGoalLabel) as String,
                 HOME_FIELD_ID,
