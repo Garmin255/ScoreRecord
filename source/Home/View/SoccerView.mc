@@ -23,6 +23,7 @@ class SoccerView extends WatchUi.View {
 	var lastScored = new [0];
 	var myTimer = new Timer.Timer();
 	var currentTime;
+    var currentVersion = "v1.4.20241026";
     var matchSeconds =  0;
 	var matchTimer = new Timer.Timer();
     var info as Activity.Info;
@@ -162,6 +163,16 @@ class SoccerView extends WatchUi.View {
             });
             time.draw(dc);
         } else {
+            var appName = new WatchUi.Text({
+                :text => WatchUi.loadResource(Rez.Strings.AppName),
+                :color => Graphics.COLOR_RED,
+                :font => Graphics.FONT_LARGE,
+                :locX => (dc.getWidth() / 2),
+                :locY => (dc.getHeight() / 10) * 3,
+                :justification => (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER)
+            });
+            appName.draw(dc);
+
             var tips = new WatchUi.Text({
                 :text => WatchUi.loadResource(Rez.Strings.Prompt),
                 :color => Graphics.COLOR_BLUE,
@@ -171,6 +182,16 @@ class SoccerView extends WatchUi.View {
                 :justification => (Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER)
             });
             tips.draw(dc);
+
+            var version = new WatchUi.Text({
+                :text => currentVersion,
+                :color => Graphics.COLOR_LT_GRAY,
+                :font => Graphics.FONT_AUX3,
+                :locX => (dc.getWidth() / 2),
+                :locY => (dc.getHeight() / 10) * 7,
+                :justification => Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+            });
+            version.draw(dc);
 
             var time = new WatchUi.Text({
                 :text => currentTime,

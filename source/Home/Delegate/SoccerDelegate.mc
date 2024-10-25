@@ -51,7 +51,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
             Attention.playTone(Attention.TONE_SUCCESS);
             persistentData();
         } else {
-            WatchUi.showToast(_prompString, { :icon => null });
+            showPromp();
         }
         _view.updateGoals();
         return true;
@@ -67,7 +67,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
             Attention.playTone(Attention.TONE_FAILURE);
             persistentData();
         } else {
-            WatchUi.showToast(_prompString, { :icon => null });
+            showPromp();
         }
         _view.updateGoals();
         return true;
@@ -80,6 +80,10 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
             $.pushComfirmDialog(_exitString, false);
         }
         return true;
+    }
+
+    public function showPromp() {
+        WatchUi.showToast(_prompString, { :icon => null });
     }
 
     private function pushUndoDialog() as Boolean {
