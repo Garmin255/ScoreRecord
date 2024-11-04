@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">ゴール記録</string>
+
+    <string id="TeamName">チーム名</string>
+
+    <string id="Home">ホーム</string>
+    <string id="Away">アウェイ</string>
+
+    <string id="Home1">チーム1</string>
+    <string id="Away1">チーム2</string>
+
+    <string id="Home2">スタンド</string>
+    <string id="Away2">学校</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">「START」をクリックして開始\n「UP」を長押しして記録を見る</string>
+
+    <string id="Continue">続ける</string>
+    <string id="Save">保存</string>
+    <string id="GiveUp">放棄</string>
+    <string id="Records">ゴール記録</string>
+    <string id="Reset">データをクリア</string>
+    <string id="Exit">終了</string>
+
+    <string id="Confirm">確認</string>
+    <string id="Start">運動開始</string>
+    <string id="Stop">運動終了</string>
+    <string id="HomeGoalLabel">ホーム ゴール</string>
+    <string id="AwayGoalLabel">アウェイ ゴール</string>
+    <string id="HomeGoalTimeLabel">ホーム 時間</string>
+    <string id="AwayGoalTimeLabel">アウェイ 時間</string>
+    <string id="Undo">ゴールを取り消す</string>
+    <string id="UndoError">エラーを取り消す</string>
+    <string id="NoRecords">ゴール記録がありません</string>
+    <string id="hasRecords">まず停止してください</string>
+    <string id="Success">成功</string>
+
+    <string id="TypesOfSport">スポーツの種類</string>
+    <string id="SPORT_GENERIC">一般的なスポーツ</string>
+    <string id="SPORT_RUNNING">ランニング</string>
+    <string id="SPORT_CYCLING">サイクリング</string>
+    <string id="SPORT_TRANSITION">トランジション</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">フィットネス機器</string>
+    <string id="SPORT_SWIMMING">水泳</string>
+    <string id="SPORT_BASKETBALL">バスケットボール</string>
+    <string id="SPORT_SOCCER">サッカー</string>
+    <string id="SPORT_TENNIS">テニス</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">アメリカンフットボール</string>
+    <string id="SPORT_TRAINING">トレーニング</string>
+    <string id="SPORT_WALKING">ウォーキング</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">クロスカントリースキー</string>
+    <string id="SPORT_ALPINE_SKIING">アルペンスキー</string>
+    <string id="SPORT_SNOWBOARDING">スノーボード</string>
+    <string id="SPORT_ROWING">ボート</string>
+    <string id="SPORT_MOUNTAINEERING">登山</string>
+    <string id="SPORT_HIKING">ハイキング</string>
+    <string id="SPORT_MULTISPORT">マルチスポーツ</string>
+    <string id="SPORT_PADDLING">パドリング</string>
+    <string id="SPORT_FLYING">飛行</string>
+    <string id="SPORT_E_BIKING">電動自転車</string>
+    <string id="SPORT_MOTORCYCLING">モーターサイクル</string>
+    <string id="SPORT_BOATING">ボートスポーツ</string>
+    <string id="SPORT_DRIVING">ドライビング</string>
+    <string id="SPORT_GOLF">ゴルフ</string>
+    <string id="SPORT_HANG_GLIDING">ハンググライダー</string>
+    <string id="SPORT_HORSEBACK_RIDING">乗馬</string>
+    <string id="SPORT_HUNTING">狩猟</string>
+    <string id="SPORT_FISHING">釣り</string>
+    <string id="SPORT_INLINE_SKATING">インラインスケート</string>
+    <string id="SPORT_ROCK_CLIMBING">ロッククライミング</string>
+    <string id="SPORT_SAILING">セーリング</string>
+    <string id="SPORT_ICE_SKATING">アイススケート</string>
+    <string id="SPORT_SKY_DIVING">スカイダイビング</string>
+    <string id="SPORT_SNOWSHOEING">スノーシュー</string>
+    <string id="SPORT_SNOWMOBILING">スノーモービル</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">スタンドアップパドルボード</string>
+    <string id="SPORT_SURFING">サーフィン</string>
+    <string id="SPORT_WAKEBOARDING">ウェイクボード</string>
+    <string id="SPORT_WATER_SKIING">ウォータースキー</string>
+    <string id="SPORT_KAYAKING">カヤック</string>
+    <string id="SPORT_RAFTING">ラフティング</string>
+    <string id="SPORT_WINDSURFING">ウィンドサーフィン</string>
+    <string id="SPORT_KITESURFING">カイトサーフィン</string>
+    <string id="SPORT_TACTICAL">戦術スポーツ</string>
+    <string id="SPORT_JUMPMASTER">ジャンプマスター</string>
+    <string id="SPORT_BOXING">ボクシング</string>
+    <string id="SPORT_FLOOR_CLIMBING">フロアクライミング</string>
+    <string id="SPORT_BASEBALL">野球</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">ファストピッチソフトボール</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">スローピッチソフトボール</string>
+    <string id="SPORT_SHOOTING">射撃</string>
+    <string id="SPORT_AUTO_RACING">オートレース</string>
+    <string id="SPORT_WINTER_SPORT">ウィンタースポーツ</string>
+    <string id="SPORT_GRINDING">グラインディング</string>
+    <string id="SPORT_HEALTH_MONITORING">ヘルスモニタリング</string>
+    <string id="SPORT_MARINE">海洋スポーツ</string>
+    <string id="SPORT_HIIT">高強度インターバルトレーニング</string>
+    <string id="SPORT_VIDEO_GAMING">ビデオゲーム</string>
+    <string id="SPORT_RACKET">ラケットスポーツ</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">車椅子ウォーク</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">車椅子ラン</string>
+    <string id="SPORT_MEDITATION">瞑想</string>
+    <string id="SPORT_PARA_SPORT">パラスポーツ</string>
+    <string id="SPORT_DISC_GOLF">ディスクゴルフ</string>
+    <string id="SPORT_TEAM_SPORT">チームスポーツ</string>
+    <string id="SPORT_CRICKET">クリケット</string>
+    <string id="SPORT_RUGBY">ラグビー</string>
+    <string id="SPORT_HOCKEY">ホッケー</string>
+    <string id="SPORT_LACROSSE">ラクロス</string>
+    <string id="SPORT_VOLLEYBALL">バレーボール</string>
+    <string id="SPORT_WATER_TUBING">ウォーターチュービング</string>
+    <string id="SPORT_WAKESURFING">ウェイクサーフィン</string>
+    <string id="SPORT_INVALID">無効なスポーツ</string>
+</strings>

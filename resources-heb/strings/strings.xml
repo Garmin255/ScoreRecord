@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">סטטיסטיקת גולים</string>
+
+    <string id="TeamName">שם הקבוצה</string>
+
+    <string id="Home">קבוצה ביתית</string>
+    <string id="Away">קבוצה אורחת</string>
+
+    <string id="Home1">קבוצה 1</string>
+    <string id="Away1">קבוצה 2</string>
+
+    <string id="Home2">יציע</string>
+    <string id="Away2">בית ספר</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">לחץ על "START" כדי להתחיל\nלחץ לחיצה ארוכה על "UP" כדי לראות רישומים</string>
+
+    <string id="Continue">המשך</string>
+    <string id="Save">שמור</string>
+    <string id="GiveUp">וותר</string>
+    <string id="Records">סטטיסטיקת גולים</string>
+    <string id="Reset">איפוס נתונים</string>
+    <string id="Exit">צא</string>
+
+    <string id="Confirm">אשר</string>
+    <string id="Start">התחל פעילות</string>
+    <string id="Stop">סיים פעילות</string>
+    <string id="HomeGoalLabel">קבוצה ביתית גול</string>
+    <string id="AwayGoalLabel">קבוצה אורחת גול</string>
+    <string id="HomeGoalTimeLabel">זמן קבוצה ביתית</string>
+    <string id="AwayGoalTimeLabel">זמן קבוצה אורחת</string>
+    <string id="Undo">בטל גול</string>
+    <string id="UndoError">בטל שגיאה</string>
+    <string id="NoRecords">אין רישום גולים</string>
+    <string id="hasRecords">עצור קודם</string>
+    <string id="Success">הצלחה</string>
+
+    <string id="TypesOfSport">סוגי ספורט</string>
+    <string id="SPORT_GENERIC">ספורט כללי</string>
+    <string id="SPORT_RUNNING">ריצה</string>
+    <string id="SPORT_CYCLING">רכיבה על אופניים</string>
+    <string id="SPORT_TRANSITION">מעבר</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">ציוד כושר</string>
+    <string id="SPORT_SWIMMING">שחייה</string>
+    <string id="SPORT_BASKETBALL">כדורסל</string>
+    <string id="SPORT_SOCCER">כדורגל</string>
+    <string id="SPORT_TENNIS">טניס</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">פוטבול אמריקאי</string>
+    <string id="SPORT_TRAINING">אימון</string>
+    <string id="SPORT_WALKING">הליכה</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">סקי למרחקים</string>
+    <string id="SPORT_ALPINE_SKIING">סקי אלפיני</string>
+    <string id="SPORT_SNOWBOARDING">סנובורד</string>
+    <string id="SPORT_ROWING">חתירה</string>
+    <string id="SPORT_MOUNTAINEERING">טיפוס הרים</string>
+    <string id="SPORT_HIKING">טיולים רגליים</string>
+    <string id="SPORT_MULTISPORT">ריבוי ענפי ספורט</string>
+    <string id="SPORT_PADDLING">חתירה</string>
+    <string id="SPORT_FLYING">תעופה</string>
+    <string id="SPORT_E_BIKING">רכיבה על אופניים חשמליים</string>
+    <string id="SPORT_MOTORCYCLING">רכיבה על אופנוע</string>
+    <string id="SPORT_BOATING">שיט</string>
+    <string id="SPORT_DRIVING">נהיגה</string>
+    <string id="SPORT_GOLF">גולף</string>
+    <string id="SPORT_HANG_GLIDING">גלישה תלויה</string>
+    <string id="SPORT_HORSEBACK_RIDING">רכיבה על סוסים</string>
+    <string id="SPORT_HUNTING">ציד</string>
+    <string id="SPORT_FISHING">דיג</string>
+    <string id="SPORT_INLINE_SKATING">גלגיליות</string>
+    <string id="SPORT_ROCK_CLIMBING">טיפוס</string>
+    <string id="SPORT_SAILING">שיט מפרשיות</string>
+    <string id="SPORT_ICE_SKATING">החלקה על קרח</string>
+    <string id="SPORT_SKY_DIVING">צניחה חופשית</string>
+    <string id="SPORT_SNOWSHOEING">הליכה בשלג</string>
+    <string id="SPORT_SNOWMOBILING">נסיעה באופנוע שלג</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">חתירה על גלשן</string>
+    <string id="SPORT_SURFING">גלישה</string>
+    <string id="SPORT_WAKEBOARDING">וויקבורד</string>
+    <string id="SPORT_WATER_SKIING">סקי מים</string>
+    <string id="SPORT_KAYAKING">קאייקינג</string>
+    <string id="SPORT_RAFTING">רפטינג</string>
+    <string id="SPORT_WINDSURFING">גלישת רוח</string>
+    <string id="SPORT_KITESURFING">גלישת עפיפונים</string>
+    <string id="SPORT_TACTICAL">ספורט טקטי</string>
+    <string id="SPORT_JUMPMASTER">מדריך צניחה</string>
+    <string id="SPORT_BOXING">איגרוף</string>
+    <string id="SPORT_FLOOR_CLIMBING">טיפוס פנים</string>
+    <string id="SPORT_BASEBALL">בייסבול</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">סופטבול מהיר</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">סופטבול איטי</string>
+    <string id="SPORT_SHOOTING">ירי</string>
+    <string id="SPORT_AUTO_RACING">מירוץ מכוניות</string>
+    <string id="SPORT_WINTER_SPORT">ספורט חורף</string>
+    <string id="SPORT_GRINDING">השחזה</string>
+    <string id="SPORT_HEALTH_MONITORING">ניטור בריאות</string>
+    <string id="SPORT_MARINE">ספורט ימי</string>
+    <string id="SPORT_HIIT">אימון אינטרוולים בעצימות גבוהה</string>
+    <string id="SPORT_VIDEO_GAMING">משחקי וידאו</string>
+    <string id="SPORT_RACKET">ספורט מחבט</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">הליכה עם כיסא גלגלים</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">ריצה עם כיסא גלגלים</string>
+    <string id="SPORT_MEDITATION">מדיטציה</string>
+    <string id="SPORT_PARA_SPORT">ספורט פראלימפי</string>
+    <string id="SPORT_DISC_GOLF">פריסבי גולף</string>
+    <string id="SPORT_TEAM_SPORT">ספורט קבוצתי</string>
+    <string id="SPORT_CRICKET">קריקט</string>
+    <string id="SPORT_RUGBY">רוגבי</string>
+    <string id="SPORT_HOCKEY">הוקי</string>
+    <string id="SPORT_LACROSSE">לקרוס</string>
+    <string id="SPORT_VOLLEYBALL">כדורעף</string>
+    <string id="SPORT_WATER_TUBING">שייט בחבל</string>
+    <string id="SPORT_WAKESURFING">ויקסרף</string>
+    <string id="SPORT_INVALID">ספורט לא תקין</string>
+</strings>

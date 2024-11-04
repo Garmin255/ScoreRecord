@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Înregistrare Goluri</string>
+    
+    <string id="TeamName">Nume Echipa</string>
+
+    <string id="Home">Acasă</string>
+    <string id="Away">Deplasare</string>
+
+    <string id="Home1">Echipa 1</string>
+    <string id="Away1">Echipa 2</string>
+
+    <string id="Home2">Tribună</string>
+    <string id="Away2">Școală</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Apasă „START” pentru a începe\nȚine apăsat „UP” pentru a vedea înregistrările</string>
+
+    <string id="Continue">Continuă</string>
+    <string id="Save">Salvează</string>
+    <string id="GiveUp">Renunță</string>
+    <string id="Records">Înregistrare Goluri</string>
+    <string id="Reset">Șterge Date</string>
+    <string id="Exit">Ieșire</string>
+
+    <string id="Confirm">Confirmă</string>
+    <string id="Start">Început</string>
+    <string id="Stop">Sfârșit</string>
+    <string id="HomeGoalLabel">Gol Gazde</string>
+    <string id="AwayGoalLabel">Gol Oaspeți</string>
+    <string id="HomeGoalTimeLabel">Timp Gazde</string>
+    <string id="AwayGoalTimeLabel">Timp Oaspeți</string>
+    <string id="Undo">Anulează Gol</string>
+    <string id="UndoError">Eroare Anulare</string>
+    <string id="NoRecords">Nicio Înregistrare Goluri</string>
+    <string id="hasRecords">Opriți Mai Întâi</string>
+    <string id="Success">Succes</string>
+
+    <string id="TypesOfSport">Tipuri de Sport</string>
+    <string id="SPORT_GENERIC">Sport Generic</string>
+    <string id="SPORT_RUNNING">Alergare</string>
+    <string id="SPORT_CYCLING">Ciclism</string>
+    <string id="SPORT_TRANSITION">Tranziție</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Echipament Fitness</string>
+    <string id="SPORT_SWIMMING">Înot</string>
+    <string id="SPORT_BASKETBALL">Baschet</string>
+    <string id="SPORT_SOCCER">Fotbal</string>
+    <string id="SPORT_TENNIS">Tenis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Fotbal American</string>
+    <string id="SPORT_TRAINING">Antrenament</string>
+    <string id="SPORT_WALKING">Mers</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Schi Fond</string>
+    <string id="SPORT_ALPINE_SKIING">Schi Alpin</string>
+    <string id="SPORT_SNOWBOARDING">Snowboarding</string>
+    <string id="SPORT_ROWING">Canotaj</string>
+    <string id="SPORT_MOUNTAINEERING">Alpinism</string>
+    <string id="SPORT_HIKING">Drumeție</string>
+    <string id="SPORT_MULTISPORT">Multisport</string>
+    <string id="SPORT_PADDLING">Caiac-Canoe</string>
+    <string id="SPORT_FLYING">Zbor</string>
+    <string id="SPORT_E_BIKING">Bicicletă Electrică</string>
+    <string id="SPORT_MOTORCYCLING">Motociclism</string>
+    <string id="SPORT_BOATING">Navigație</string>
+    <string id="SPORT_DRIVING">Conducere</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Deltaplanism</string>
+    <string id="SPORT_HORSEBACK_RIDING">Călărie</string>
+    <string id="SPORT_HUNTING">Vânătoare</string>
+    <string id="SPORT_FISHING">Pescuit</string>
+    <string id="SPORT_INLINE_SKATING">Role</string>
+    <string id="SPORT_ROCK_CLIMBING">Cățărare</string>
+    <string id="SPORT_SAILING">Navigare</string>
+    <string id="SPORT_ICE_SKATING">Patinaj</string>
+    <string id="SPORT_SKY_DIVING">Parasutism</string>
+    <string id="SPORT_SNOWSHOEING">Raționaj Zăpadă</string>
+    <string id="SPORT_SNOWMOBILING">Snowmobil</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Paddleboarding</string>
+    <string id="SPORT_SURFING">Surfing</string>
+    <string id="SPORT_WAKEBOARDING">Wakeboarding</string>
+    <string id="SPORT_WATER_SKIING">Schi Nautic</string>
+    <string id="SPORT_KAYAKING">Caiac</string>
+    <string id="SPORT_RAFTING">Rafting</string>
+    <string id="SPORT_WINDSURFING">Windsurfing</string>
+    <string id="SPORT_KITESURFING">Kitesurfing</string>
+    <string id="SPORT_TACTICAL">Sport Tactic</string>
+    <string id="SPORT_JUMPMASTER">Sărituri Antrenor</string>
+    <string id="SPORT_BOXING">Box</string>
+    <string id="SPORT_FLOOR_CLIMBING">Urcare Pe Podea</string>
+    <string id="SPORT_BASEBALL">Baseball</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Softball Aruncare Rapidă</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Softball Aruncare Lentă</string>
+    <string id="SPORT_SHOOTING">Trageri</string>
+    <string id="SPORT_AUTO_RACING">Curse Auto</string>
+    <string id="SPORT_WINTER_SPORT">Sporturi de Iarnă</string>
+    <string id="SPORT_GRINDING">Pregătire</string>
+    <string id="SPORT_HEALTH_MONITORING">Monitorizare Sănătate</string>
+    <string id="SPORT_MARINE">Sporturi Marine</string>
+    <string id="SPORT_HIIT">Antrenament Intensiv</string>
+    <string id="SPORT_VIDEO_GAMING">Jocuri Video</string>
+    <string id="SPORT_RACKET">Sporturi cu Rachetă</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Deplasare în Scaun cu Rotile</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Alergare în Scaun cu Rotile</string>
+    <string id="SPORT_MEDITATION">Meditație</string>
+    <string id="SPORT_PARA_SPORT">Parasport</string>
+    <string id="SPORT_DISC_GOLF">Disc Golf</string>
+    <string id="SPORT_TEAM_SPORT">Sport de Echipa</string>
+    <string id="SPORT_CRICKET">Cricket</string>
+    <string id="SPORT_RUGBY">Rugby</string>
+    <string id="SPORT_HOCKEY">Hochei</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Volei</string>
+    <string id="SPORT_WATER_TUBING">Tuburi de Apă</string>
+    <string id="SPORT_WAKESURFING">Wakesurfing</string>
+    <string id="SPORT_INVALID">Sport Invalid</string>
+</strings>

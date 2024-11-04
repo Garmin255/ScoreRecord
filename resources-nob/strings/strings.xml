@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Målstatistikk</string>
+
+    <string id="TeamName">Lagnavn</string>
+
+    <string id="Home">Hjemmelag</string>
+    <string id="Away">Bortelag</string>
+
+    <string id="Home1">Lag 1</string>
+    <string id="Away1">Lag 2</string>
+
+    <string id="Home2">Tribune</string>
+    <string id="Away2">Skole</string>
+
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Trykk "START" for å begynne\nHold "UP" for å se statistikk</string>
+
+    <string id="Continue">Fortsett</string>
+    <string id="Save">Lagre</string>
+    <string id="GiveUp">Gi opp</string>
+    <string id="Records">Målstatistikk</string>
+    <string id="Reset">Tøm data</string>
+    <string id="Exit">Avslutt</string>
+
+    <string id="Confirm">Bekreft</string>
+    <string id="Start">Start trening</string>
+    <string id="Stop">Stopp trening</string>
+    <string id="HomeGoalLabel">Hjemmelag Mål</string>
+    <string id="AwayGoalLabel">Bortelag Mål</string>
+    <string id="HomeGoalTimeLabel">Hjemmelag Tid</string>
+    <string id="AwayGoalTimeLabel">Bortelag Tid</string>
+    <string id="Undo">Angre mål</string>
+    <string id="UndoError">Angre feil</string>
+    <string id="NoRecords">Ingen målstatistikk</string>
+    <string id="hasRecords">Stopp først</string>
+    <string id="Success">Vellykket</string>
+
+    <string id="TypesOfSport">Type sport</string>
+    <string id="SPORT_GENERIC">Generell sport</string>
+    <string id="SPORT_RUNNING">Løping</string>
+    <string id="SPORT_CYCLING">Sykling</string>
+    <string id="SPORT_TRANSITION">Overgang</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Treningsutstyr</string>
+    <string id="SPORT_SWIMMING">Svømming</string>
+    <string id="SPORT_BASKETBALL">Basketball</string>
+    <string id="SPORT_SOCCER">Fotball</string>
+    <string id="SPORT_TENNIS">Tennis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Amerikansk fotball</string>
+    <string id="SPORT_TRAINING">Trening</string>
+    <string id="SPORT_WALKING">Gåtur</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Langrenn</string>
+    <string id="SPORT_ALPINE_SKIING">Alpint</string>
+    <string id="SPORT_SNOWBOARDING">Snowboard</string>
+    <string id="SPORT_ROWING">Roing</string>
+    <string id="SPORT_MOUNTAINEERING">Klatring</string>
+    <string id="SPORT_HIKING">Fottur</string>
+    <string id="SPORT_MULTISPORT">Multisport</string>
+    <string id="SPORT_PADDLING">Padling</string>
+    <string id="SPORT_FLYING">Flyging</string>
+    <string id="SPORT_E_BIKING">El-sykkel</string>
+    <string id="SPORT_MOTORCYCLING">Motorsykkel</string>
+    <string id="SPORT_BOATING">Båtsport</string>
+    <string id="SPORT_DRIVING">Kjøring</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Hengegliding</string>
+    <string id="SPORT_HORSEBACK_RIDING">Hesterygg</string>
+    <string id="SPORT_HUNTING">Jakt</string>
+    <string id="SPORT_FISHING">Fiske</string>
+    <string id="SPORT_INLINE_SKATING">Inline-skøyter</string>
+    <string id="SPORT_ROCK_CLIMBING">Bergklatring</string>
+    <string id="SPORT_SAILING">Seiling</string>
+    <string id="SPORT_ICE_SKATING">Skøyter</string>
+    <string id="SPORT_SKY_DIVING">Fallskjermhopping</string>
+    <string id="SPORT_SNOWSHOEING">Truger</string>
+    <string id="SPORT_SNOWMOBILING">Snøscooter</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">SUP</string>
+    <string id="SPORT_SURFING">Surfing</string>
+    <string id="SPORT_WAKEBOARDING">Wakeboard</string>
+    <string id="SPORT_WATER_SKIING">Vannski</string>
+    <string id="SPORT_KAYAKING">Kajakkpadling</string>
+    <string id="SPORT_RAFTING">Rafting</string>
+    <string id="SPORT_WINDSURFING">Windsurfing</string>
+    <string id="SPORT_KITESURFING">Kitesurfing</string>
+    <string id="SPORT_TACTICAL">Taktisk sport</string>
+    <string id="SPORT_JUMPMASTER">Fallskjermmester</string>
+    <string id="SPORT_BOXING">Boksing</string>
+    <string id="SPORT_FLOOR_CLIMBING">Gulvklatring</string>
+    <string id="SPORT_BASEBALL">Baseball</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Rask softball</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Langsom softball</string>
+    <string id="SPORT_SHOOTING">Skyting</string>
+    <string id="SPORT_AUTO_RACING">Bilracing</string>
+    <string id="SPORT_WINTER_SPORT">Vintersport</string>
+    <string id="SPORT_GRINDING">Hardtrening</string>
+    <string id="SPORT_HEALTH_MONITORING">Helseovervåkning</string>
+    <string id="SPORT_MARINE">Marinesport</string>
+    <string id="SPORT_HIIT">HIIT-trening</string>
+    <string id="SPORT_VIDEO_GAMING">Videospill</string>
+    <string id="SPORT_RACKET">Racketsport</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Rullestol ved gang</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Rullestol ved løp</string>
+    <string id="SPORT_MEDITATION">Meditasjon</string>
+    <string id="SPORT_PARA_SPORT">Parasport</string>
+    <string id="SPORT_DISC_GOLF">Diskgolf</string>
+    <string id="SPORT_TEAM_SPORT">Lagidrett</string>
+    <string id="SPORT_CRICKET">Cricket</string>
+    <string id="SPORT_RUGBY">Rugby</string>
+    <string id="SPORT_HOCKEY">Hockey</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Volleyball</string>
+    <string id="SPORT_WATER_TUBING">Vannetubing</string>
+    <string id="SPORT_WAKESURFING">Wakesurfing</string>
+    <string id="SPORT_INVALID">Ugyldig sport</string>
+</strings>

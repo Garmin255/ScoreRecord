@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">تسجيل الأهداف</string>
+
+    <string id="TeamName">اسم الفريق</string>
+
+    <string id="Home">الفريق المضيف</string>
+    <string id="Away">الفريق الضيف</string>
+
+    <string id="Home1">الفريق 1</string>
+    <string id="Away1">الفريق 2</string>
+
+    <string id="Home2">المدرجات</string>
+    <string id="Away2">المدرسة</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">انقر على "START" لبدء\nاضغط مطولاً على "UP" لعرض السجل</string>
+
+    <string id="Continue">متابعة</string>
+    <string id="Save">حفظ</string>
+    <string id="GiveUp">استسلام</string>
+    <string id="Records">سجل الأهداف</string>
+    <string id="Reset">مسح البيانات</string>
+    <string id="Exit">خروج</string>
+
+    <string id="Confirm">تأكيد</string>
+    <string id="Start">بدء الرياضة</string>
+    <string id="Stop">إنهاء الرياضة</string>
+    <string id="HomeGoalLabel">هدفا للفريق المضيف</string>
+    <string id="AwayGoalLabel">هدفا للفريق الضيف</string>
+    <string id="HomeGoalTimeLabel">وقت الفريق المضيف</string>
+    <string id="AwayGoalTimeLabel">وقت الفريق الضيف</string>
+    <string id="Undo">إلغاء الهدف</string>
+    <string id="UndoError">خطأ في الإلغاء</string>
+    <string id="NoRecords">لا توجد أهداف مسجلة</string>
+    <string id="hasRecords">يرجى إيقافه أولاً</string>
+    <string id="Success">نجاح</string>
+
+    <string id="TypesOfSport">نوع الرياضة</string>
+    <string id="SPORT_GENERIC">رياضة عامة</string>
+    <string id="SPORT_RUNNING">الجري</string>
+    <string id="SPORT_CYCLING">ركوب الدراجات</string>
+    <string id="SPORT_TRANSITION">الانتقال</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">معدات اللياقة البدنية</string>
+    <string id="SPORT_SWIMMING">السباحة</string>
+    <string id="SPORT_BASKETBALL">كرة السلة</string>
+    <string id="SPORT_SOCCER">كرة القدم</string>
+    <string id="SPORT_TENNIS">التنس</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">كرة القدم الأمريكية</string>
+    <string id="SPORT_TRAINING">التدريب</string>
+    <string id="SPORT_WALKING">المشي</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">التزلج عبر البلاد</string>
+    <string id="SPORT_ALPINE_SKIING">التزلج الجبلي</string>
+    <string id="SPORT_SNOWBOARDING">ركوب لوح الثلج</string>
+    <string id="SPORT_ROWING">التجديف</string>
+    <string id="SPORT_MOUNTAINEERING">تسلق الجبال</string>
+    <string id="SPORT_HIKING">المشي في الطبيعة</string>
+    <string id="SPORT_MULTISPORT">رياضات متعددة</string>
+    <string id="SPORT_PADDLING">التجديف</string>
+    <string id="SPORT_FLYING">الطيران</string>
+    <string id="SPORT_E_BIKING">ركوب الدراجات الكهربائية</string>
+    <string id="SPORT_MOTORCYCLING">ركوب الدراجات النارية</string>
+    <string id="SPORT_BOATING">ركوب القوارب</string>
+    <string id="SPORT_DRIVING">القيادة</string>
+    <string id="SPORT_GOLF">الجولف</string>
+    <string id="SPORT_HANG_GLIDING">الطيران الشراعي</string>
+    <string id="SPORT_HORSEBACK_RIDING">ركوب الخيل</string>
+    <string id="SPORT_HUNTING">الصيد</string>
+    <string id="SPORT_FISHING">صيد السمك</string>
+    <string id="SPORT_INLINE_SKATING">التزلج المتحرك</string>
+    <string id="SPORT_ROCK_CLIMBING">تسلق الصخور</string>
+    <string id="SPORT_SAILING">الإبحار</string>
+    <string id="SPORT_ICE_SKATING">التزلج على الجليد</string>
+    <string id="SPORT_SKY_DIVING">القفز بالمظلات</string>
+    <string id="SPORT_SNOWSHOEING">التزلج بالأحذية الثلجية</string>
+    <string id="SPORT_SNOWMOBILING">الدراجات الثلجية</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">رياضة اللوح القائم</string>
+    <string id="SPORT_SURFING">ركوب الأمواج</string>
+    <string id="SPORT_WAKEBOARDING">ركوب الواك بورد</string>
+    <string id="SPORT_WATER_SKIING">التزلج على الماء</string>
+    <string id="SPORT_KAYAKING">التجديف</string>
+    <string id="SPORT_RAFTING">ركوب القوارب المطاطية</string>
+    <string id="SPORT_WINDSURFING">الركمجة</string>
+    <string id="SPORT_KITESURFING">ركوب الأمواج بالطائرة الورقية</string>
+    <string id="SPORT_TACTICAL">الرياضة التكتيكية</string>
+    <string id="SPORT_JUMPMASTER">مدرب القفز بالمظلات</string>
+    <string id="SPORT_BOXING">الملاكمة</string>
+    <string id="SPORT_FLOOR_CLIMBING">تسلق الأرض</string>
+    <string id="SPORT_BASEBALL">كرة القاعدة</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">كرة سوفت بل السريعة</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">كرة سوفت بل البطيئة</string>
+    <string id="SPORT_SHOOTING">الرماية</string>
+    <string id="SPORT_AUTO_RACING">سباقات السيارات</string>
+    <string id="SPORT_WINTER_SPORT">الرياضات الشتوية</string>
+    <string id="SPORT_GRINDING">التدريب المكثف</string>
+    <string id="SPORT_HEALTH_MONITORING">مراقبة الصحة</string>
+    <string id="SPORT_MARINE">رياضات بحرية</string>
+    <string id="SPORT_HIIT">تدريب الفترات عالية الكثافة</string>
+    <string id="SPORT_VIDEO_GAMING">ألعاب الفيديو</string>
+    <string id="SPORT_RACKET">رياضات المضرب</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">دفع الكرسي المتحرك مشياً</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">دفع الكرسي المتحرك جاريًا</string>
+    <string id="SPORT_MEDITATION">التأمل</string>
+    <string id="SPORT_PARA_SPORT">الرياضات البارالمبية</string>
+    <string id="SPORT_DISC_GOLF">غولف القرص</string>
+    <string id="SPORT_TEAM_SPORT">الرياضات الجماعية</string>
+    <string id="SPORT_CRICKET">الكريكيت</string>
+    <string id="SPORT_RUGBY">الرجبي</string>
+    <string id="SPORT_HOCKEY">الهوكي</string>
+    <string id="SPORT_LACROSSE">اللاكروس</string>
+    <string id="SPORT_VOLLEYBALL">الكرة الطائرة</string>
+    <string id="SPORT_WATER_TUBING">الأنبوبة المائية</string>
+    <string id="SPORT_WAKESURFING">ركوب الأمواج بالواح تجرها القوارب</string>
+    <string id="SPORT_INVALID">رياضة غير صالحة</string>
+</strings>

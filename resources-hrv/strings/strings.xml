@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Postignuti Golovi</string>
+    
+    <string id="TeamName">Naziv Tima</string>
+    
+    <string id="Home">Domaći</string>
+    <string id="Away">Gosti</string>
+    
+    <string id="Home1">Tim 1</string>
+    <string id="Away1">Tim 2</string>
+    
+    <string id="Home2">Tribina</string>
+    <string id="Away2">Škola</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Kliknite "START" za početak\nDugo pritisnite "UP" za pregled rezultata</string>
+    
+    <string id="Continue">Nastavi</string>
+    <string id="Save">Spremi</string>
+    <string id="GiveUp">Odustani</string>
+    <string id="Records">Evidencija Golova</string>
+    <string id="Reset">Izbriši Podatke</string>
+    <string id="Exit">Izađi</string>
+    
+    <string id="Confirm">Potvrdi</string>
+    <string id="Start">Početak</string>
+    <string id="Stop">Kraj</string>
+    <string id="HomeGoalLabel">Domaći Gol</string>
+    <string id="AwayGoalLabel">Gostujući Gol</string>
+    <string id="HomeGoalTimeLabel">Vrijeme Domaćeg</string>
+    <string id="AwayGoalTimeLabel">Vrijeme Gostiju</string>
+    <string id="Undo">Poništi Gol</string>
+    <string id="UndoError">Poništi Grešku</string>
+    <string id="NoRecords">Nema Evidencijskih Podataka</string>
+    <string id="hasRecords">Molimo, prvo zaustavite</string>
+    <string id="Success">Uspješno</string>
+    
+    <string id="TypesOfSport">Vrste Sporta</string>
+    <string id="SPORT_GENERIC">Opći Sport</string>
+    <string id="SPORT_RUNNING">Trčanje</string>
+    <string id="SPORT_CYCLING">Biciklizam</string>
+    <string id="SPORT_TRANSITION">Tranzicija</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Fitness Oprema</string>
+    <string id="SPORT_SWIMMING">Plivanje</string>
+    <string id="SPORT_BASKETBALL">Košarka</string>
+    <string id="SPORT_SOCCER">Nogomet</string>
+    <string id="SPORT_TENNIS">Tenis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Američki Nogomet</string>
+    <string id="SPORT_TRAINING">Trening</string>
+    <string id="SPORT_WALKING">Hodanje</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Skijaško Trčanje</string>
+    <string id="SPORT_ALPINE_SKIING">Alpsko Skijanje</string>
+    <string id="SPORT_SNOWBOARDING">Snowboarding</string>
+    <string id="SPORT_ROWING">Veslanje</string>
+    <string id="SPORT_MOUNTAINEERING">Planinarenje</string>
+    <string id="SPORT_HIKING">Pješačenje</string>
+    <string id="SPORT_MULTISPORT">Višesport</string>
+    <string id="SPORT_PADDLING">Veslanje</string>
+    <string id="SPORT_FLYING">Leťački Sportovi</string>
+    <string id="SPORT_E_BIKING">Električni Biciklizam</string>
+    <string id="SPORT_MOTORCYCLING">Motociklizam</string>
+    <string id="SPORT_BOATING">Plovidba</string>
+    <string id="SPORT_DRIVING">Vožnja</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Letenje Zmajem</string>
+    <string id="SPORT_HORSEBACK_RIDING">Jahanje Konja</string>
+    <string id="SPORT_HUNTING">Lov</string>
+    <string id="SPORT_FISHING">Ribolov</string>
+    <string id="SPORT_INLINE_SKATING">Inline Klizanje</string>
+    <string id="SPORT_ROCK_CLIMBING">Penjanje</string>
+    <string id="SPORT_SAILING">Jedrenje</string>
+    <string id="SPORT_ICE_SKATING">Klizanje na Ledu</string>
+    <string id="SPORT_SKY_DIVING">Skakanje Padobranom</string>
+    <string id="SPORT_SNOWSHOEING">Hodanje na Krpljama</string>
+    <string id="SPORT_SNOWMOBILING">Motornim Sancima</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Stand-Up Paddleboarding</string>
+    <string id="SPORT_SURFING">Surfanje</string>
+    <string id="SPORT_WAKEBOARDING">Jedrenje na Dasci</string>
+    <string id="SPORT_WATER_SKIING">Skijanje na Vodi</string>
+    <string id="SPORT_KAYAKING">Kajakarenje</string>
+    <string id="SPORT_RAFTING">Rafting</string>
+    <string id="SPORT_WINDSURFING">Windsurfing</string>
+    <string id="SPORT_KITESURFING">Kitesurfing</string>
+    <string id="SPORT_TACTICAL">Taktički Sportovi</string>
+    <string id="SPORT_JUMPMASTER">Instruktor Padobrana</string>
+    <string id="SPORT_BOXING">Boks</string>
+    <string id="SPORT_FLOOR_CLIMBING">Penjanje po Podu</string>
+    <string id="SPORT_BASEBALL">Bejzbol</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Brzi Softbol</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Spori Softbol</string>
+    <string id="SPORT_SHOOTING">Streljaštvo</string>
+    <string id="SPORT_AUTO_RACING">Auto Utrke</string>
+    <string id="SPORT_WINTER_SPORT">Zimski Sportovi</string>
+    <string id="SPORT_GRINDING">Brušenja</string>
+    <string id="SPORT_HEALTH_MONITORING">Praćenje Zdravlja</string>
+    <string id="SPORT_MARINE">Morski Sportovi</string>
+    <string id="SPORT_HIIT">Visokointenzivni Intervallni Trening</string>
+    <string id="SPORT_VIDEO_GAMING">Video Igre</string>
+    <string id="SPORT_RACKET">Reketni Sportovi</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Guranje Kolica - Hodanje</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Guranje Kolica - Trčanje</string>
+    <string id="SPORT_MEDITATION">Meditacija</string>
+    <string id="SPORT_PARA_SPORT">Paralimpijski Sport</string>
+    <string id="SPORT_DISC_GOLF">Disc Golf</string>
+    <string id="SPORT_TEAM_SPORT">Ekipni Sport</string>
+    <string id="SPORT_CRICKET">Kriket</string>
+    <string id="SPORT_RUGBY">Ragbi</string>
+    <string id="SPORT_HOCKEY">Hokej</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Odbojka</string>
+    <string id="SPORT_WATER_TUBING">Voda na Tubama</string>
+    <string id="SPORT_WAKESURFING">Wakesurfing</string>
+    <string id="SPORT_INVALID">Nevažeći Sport</string>
+</strings>

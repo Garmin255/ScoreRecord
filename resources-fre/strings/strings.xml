@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Journal de Buts</string>
+
+    <string id="TeamName">Nom de l'équipe</string>
+
+    <string id="Home">Domicile</string>
+    <string id="Away">Visiteur</string>
+
+    <string id="Home1">Équipe 1</string>
+    <string id="Away1">Équipe 2</string>
+
+    <string id="Home2">Tribune</string>
+    <string id="Away2">École</string>
+
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Cliquez sur "START" pour commencer\nAppuyez longuement sur "UP" pour voir les enregistrements</string>
+
+    <string id="Continue">Continuer</string>
+    <string id="Save">Enregistrer</string>
+    <string id="GiveUp">Abandonner</string>
+    <string id="Records">Journal de Buts</string>
+    <string id="Reset">Réinitialiser</string>
+    <string id="Exit">Quitter</string>
+
+    <string id="Confirm">Confirmer</string>
+    <string id="Start">Commencer</string>
+    <string id="Stop">Arrêter</string>
+    <string id="HomeGoalLabel">But Domicile</string>
+    <string id="AwayGoalLabel">But Visiteur</string>
+    <string id="HomeGoalTimeLabel">Temps Domicile</string>
+    <string id="AwayGoalTimeLabel">Temps Visiteur</string>
+    <string id="Undo">Annuler le but</string>
+    <string id="UndoError">Erreur d'annulation</string>
+    <string id="NoRecords">Aucun but enregistré</string>
+    <string id="hasRecords">Veuillez d'abord arrêter</string>
+    <string id="Success">Succès</string>
+
+    <string id="TypesOfSport">Types de sport</string>
+    <string id="SPORT_GENERIC">Sport générique</string>
+    <string id="SPORT_RUNNING">Course</string>
+    <string id="SPORT_CYCLING">Cyclisme</string>
+    <string id="SPORT_TRANSITION">Transition</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Équipement de fitness</string>
+    <string id="SPORT_SWIMMING">Natation</string>
+    <string id="SPORT_BASKETBALL">Basket-ball</string>
+    <string id="SPORT_SOCCER">Football</string>
+    <string id="SPORT_TENNIS">Tennis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Football américain</string>
+    <string id="SPORT_TRAINING">Entraînement</string>
+    <string id="SPORT_WALKING">Marche</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Ski de fond</string>
+    <string id="SPORT_ALPINE_SKIING">Ski alpin</string>
+    <string id="SPORT_SNOWBOARDING">Snowboard</string>
+    <string id="SPORT_ROWING">Aviron</string>
+    <string id="SPORT_MOUNTAINEERING">Alpinisme</string>
+    <string id="SPORT_HIKING">Randonnée</string>
+    <string id="SPORT_MULTISPORT">Multisport</string>
+    <string id="SPORT_PADDLING">Pagaie</string>
+    <string id="SPORT_FLYING">Vol</string>
+    <string id="SPORT_E_BIKING">Vélo électrique</string>
+    <string id="SPORT_MOTORCYCLING">Motocyclisme</string>
+    <string id="SPORT_BOATING">Navigation</string>
+    <string id="SPORT_DRIVING">Conduite</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Parapente</string>
+    <string id="SPORT_HORSEBACK_RIDING">Équitation</string>
+    <string id="SPORT_HUNTING">Chasse</string>
+    <string id="SPORT_FISHING">Pêche</string>
+    <string id="SPORT_INLINE_SKATING">Roller</string>
+    <string id="SPORT_ROCK_CLIMBING">Escalade</string>
+    <string id="SPORT_SAILING">Voile</string>
+    <string id="SPORT_ICE_SKATING">Patinage</string>
+    <string id="SPORT_SKY_DIVING">Parachutisme</string>
+    <string id="SPORT_SNOWSHOEING">Raquette</string>
+    <string id="SPORT_SNOWMOBILING">Motoneige</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Paddle</string>
+    <string id="SPORT_SURFING">Surf</string>
+    <string id="SPORT_WAKEBOARDING">Wakeboard</string>
+    <string id="SPORT_WATER_SKIING">Ski nautique</string>
+    <string id="SPORT_KAYAKING">Kayak</string>
+    <string id="SPORT_RAFTING">Rafting</string>
+    <string id="SPORT_WINDSURFING">Planche à voile</string>
+    <string id="SPORT_KITESURFING">Kitesurf</string>
+    <string id="SPORT_TACTICAL">Sport tactique</string>
+    <string id="SPORT_JUMPMASTER">Moniteur de saut</string>
+    <string id="SPORT_BOXING">Boxe</string>
+    <string id="SPORT_FLOOR_CLIMBING">Escalade intérieure</string>
+    <string id="SPORT_BASEBALL">Baseball</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Softball rapide</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Softball lent</string>
+    <string id="SPORT_SHOOTING">Tir</string>
+    <string id="SPORT_AUTO_RACING">Course automobile</string>
+    <string id="SPORT_WINTER_SPORT">Sport d'hiver</string>
+    <string id="SPORT_GRINDING">Affûtage</string>
+    <string id="SPORT_HEALTH_MONITORING">Suivi de santé</string>
+    <string id="SPORT_MARINE">Sports nautiques</string>
+    <string id="SPORT_HIIT">Entraînement HIIT</string>
+    <string id="SPORT_VIDEO_GAMING">Jeux vidéo</string>
+    <string id="SPORT_RACKET">Sport de raquette</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Marche en fauteuil roulant</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Course en fauteuil roulant</string>
+    <string id="SPORT_MEDITATION">Méditation</string>
+    <string id="SPORT_PARA_SPORT">Para sport</string>
+    <string id="SPORT_DISC_GOLF">Disc golf</string>
+    <string id="SPORT_TEAM_SPORT">Sport d'équipe</string>
+    <string id="SPORT_CRICKET">Cricket</string>
+    <string id="SPORT_RUGBY">Rugby</string>
+    <string id="SPORT_HOCKEY">Hockey</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Volley-ball</string>
+    <string id="SPORT_WATER_TUBING">Bouée tractée</string>
+    <string id="SPORT_WAKESURFING">Wake surf</string>
+    <string id="SPORT_INVALID">Sport invalide</string>
+</strings>

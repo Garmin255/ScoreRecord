@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Vārtu Rekords</string>
+
+    <string id="TeamName">Komandas Nosaukums</string>
+
+    <string id="Home">Mājas Komanda</string>
+    <string id="Away">Viesu Komanda</string>
+
+    <string id="Home1">Komanda 1</string>
+    <string id="Away1">Komanda 2</string>
+
+    <string id="Home2">Tribīne</string>
+    <string id="Away2">Skola</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Nospiediet "START", lai sāktu\nTuriet "UP", lai skatītu ierakstus</string>
+
+    <string id="Continue">Turpināt</string>
+    <string id="Save">Saglabāt</string>
+    <string id="GiveUp">Atmest</string>
+    <string id="Records">Vārtu Ieraksti</string>
+    <string id="Reset">Notīrīt Datus</string>
+    <string id="Exit">Iziet</string>
+
+    <string id="Confirm">Apstiprināt</string>
+    <string id="Start">Sākt Sportot</string>
+    <string id="Stop">Beigt Sportot</string>
+    <string id="HomeGoalLabel">Mājas Komanda Gūst Vārtus</string>
+    <string id="AwayGoalLabel">Viesu Komanda Gūst Vārtus</string>
+    <string id="HomeGoalTimeLabel">Mājas Komandas Laiks</string>
+    <string id="AwayGoalTimeLabel">Viesu Komandas Laiks</string>
+    <string id="Undo">Atsaukt Vārtus</string>
+    <string id="UndoError">Atsaukt Kļūdu</string>
+    <string id="NoRecords">Nav Vārtu Ierakstu</string>
+    <string id="hasRecords">Lūdzu, vispirms apstājieties</string>
+    <string id="Success">Veiksmīgi</string>
+
+    <string id="TypesOfSport">Sporta Veidi</string>
+    <string id="SPORT_GENERIC">Vispārīgs Sports</string>
+    <string id="SPORT_RUNNING">Skriešana</string>
+    <string id="SPORT_CYCLING">Riteņbraukšana</string>
+    <string id="SPORT_TRANSITION">Pāreja</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Fitnesa Iekārtas</string>
+    <string id="SPORT_SWIMMING">Peldēšana</string>
+    <string id="SPORT_BASKETBALL">Basketbols</string>
+    <string id="SPORT_SOCCER">Futbols</string>
+    <string id="SPORT_TENNIS">Teniss</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Amerikāņu Futbols</string>
+    <string id="SPORT_TRAINING">Treniņš</string>
+    <string id="SPORT_WALKING">Pastaiga</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Distanču Slēpošana</string>
+    <string id="SPORT_ALPINE_SKIING">Kalnu Slēpošana</string>
+    <string id="SPORT_SNOWBOARDING">Snovbords</string>
+    <string id="SPORT_ROWING">Airēšana</string>
+    <string id="SPORT_MOUNTAINEERING">Kāpšana Kalnos</string>
+    <string id="SPORT_HIKING">Pārgājieni</string>
+    <string id="SPORT_MULTISPORT">Daudzveidīgs Sports</string>
+    <string id="SPORT_PADDLING">Airēšana Ar Dēli</string>
+    <string id="SPORT_FLYING">Lidošana</string>
+    <string id="SPORT_E_BIKING">Elektroveltis</string>
+    <string id="SPORT_MOTORCYCLING">Motocikls</string>
+    <string id="SPORT_BOATING">Laivošana</string>
+    <string id="SPORT_DRIVING">Braukšana</string>
+    <string id="SPORT_GOLF">Golfs</string>
+    <string id="SPORT_HANG_GLIDING">Vinglidings</string>
+    <string id="SPORT_HORSEBACK_RIDING">Jāšana ar Zirgu</string>
+    <string id="SPORT_HUNTING">Medības</string>
+    <string id="SPORT_FISHING">Makšķerēšana</string>
+    <string id="SPORT_INLINE_SKATING">Inline Skrituļošana</string>
+    <string id="SPORT_ROCK_CLIMBING">Klinšu Kāpšana</string>
+    <string id="SPORT_SAILING">Buru Sports</string>
+    <string id="SPORT_ICE_SKATING">Slidošana</string>
+    <string id="SPORT_SKY_DIVING">Izpletņlēkšana</string>
+    <string id="SPORT_SNOWSHOEING">Ziemas Pārgājieni</string>
+    <string id="SPORT_SNOWMOBILING">Sniega Motocikli</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Stāvošā Airēšana</string>
+    <string id="SPORT_SURFING">Sērfošana</string>
+    <string id="SPORT_WAKEBOARDING">Weikbordings</string>
+    <string id="SPORT_WATER_SKIING">Ūdens Slēpošana</string>
+    <string id="SPORT_KAYAKING">Kajakbraukšana</string>
+    <string id="SPORT_RAFTING">Baļķošana</string>
+    <string id="SPORT_WINDSURFING">Vindsērfings</string>
+    <string id="SPORT_KITESURFING">Kaitbords</string>
+    <string id="SPORT_TACTICAL">Taktiskās Sporta Veids</string>
+    <string id="SPORT_JUMPMASTER">Izpletņu Instruktors</string>
+    <string id="SPORT_BOXING">Bokss</string>
+    <string id="SPORT_FLOOR_CLIMBING">Grīdas Kāpšana</string>
+    <string id="SPORT_BASEBALL">Beisbols</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Ātrā Mīkstballe</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Lēnā Mīkstballe</string>
+    <string id="SPORT_SHOOTING">Šaušana</string>
+    <string id="SPORT_AUTO_RACING">Auto Sacīkstes</string>
+    <string id="SPORT_WINTER_SPORT">Ziemas Sporta Veids</string>
+    <string id="SPORT_GRINDING">Trenēšanās</string>
+    <string id="SPORT_HEALTH_MONITORING">Veselības Uzraudzība</string>
+    <string id="SPORT_MARINE">Jūras Sports</string>
+    <string id="SPORT_HIIT">HIIT</string>
+    <string id="SPORT_VIDEO_GAMING">Videospēles</string>
+    <string id="SPORT_RACKET">Raketes Sports</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Ratiņkrēsla Pastaiga</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Ratiņkrēsla Skrējiens</string>
+    <string id="SPORT_MEDITATION">Meditācija</string>
+    <string id="SPORT_PARA_SPORT">Parasports</string>
+    <string id="SPORT_DISC_GOLF">Diska Golfs</string>
+    <string id="SPORT_TEAM_SPORT">Komandas Sports</string>
+    <string id="SPORT_CRICKET">Krikets</string>
+    <string id="SPORT_RUGBY">Regbijs</string>
+    <string id="SPORT_HOCKEY">Hokejs</string>
+    <string id="SPORT_LACROSSE">Lakross</string>
+    <string id="SPORT_VOLLEYBALL">Volejbols</string>
+    <string id="SPORT_WATER_TUBING">Ūdens Tubings</string>
+    <string id="SPORT_WAKESURFING">Teikbordings</string>
+    <string id="SPORT_INVALID">Nederīgs Sports</string>
+</strings>

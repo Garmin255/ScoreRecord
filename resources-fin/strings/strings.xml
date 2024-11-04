@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Maalitiedot</string>
+
+    <string id="TeamName">Joukkueen nimi</string>
+
+    <string id="Home">Kotijoukkue</string>
+    <string id="Away">Vierasjoukkue</string>
+
+    <string id="Home1">Joukkue 1</string>
+    <string id="Away1">Joukkue 2</string>
+
+    <string id="Home2">Katsomo</string>
+    <string id="Away2">Koulu</string>
+
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Paina "START" aloittaaksesi\nPidä "UP" katsomista varten</string>
+
+    <string id="Continue">Jatka</string>
+    <string id="Save">Tallenna</string>
+    <string id="GiveUp">Luovuta</string>
+    <string id="Records">Maalitiedot</string>
+    <string id="Reset">Tyhjennä tiedot</string>
+    <string id="Exit">Poistu</string>
+
+    <string id="Confirm">Vahvista</string>
+    <string id="Start">Aloita</string>
+    <string id="Stop">Lopeta</string>
+    <string id="HomeGoalLabel">Kotijoukkue maali</string>
+    <string id="AwayGoalLabel">Vierasjoukkue maali</string>
+    <string id="HomeGoalTimeLabel">Kotijoukkue aika</string>
+    <string id="AwayGoalTimeLabel">Vierasjoukkue aika</string>
+    <string id="Undo">Kumoa maali</string>
+    <string id="UndoError">Kumoa virhe</string>
+    <string id="NoRecords">Ei maaleja</string>
+    <string id="hasRecords">Pysäytä ensin</string>
+    <string id="Success">Onnistui</string>
+
+    <string id="TypesOfSport">Urheilulajit</string>
+    <string id="SPORT_GENERIC">Yleisurheilu</string>
+    <string id="SPORT_RUNNING">Juoksu</string>
+    <string id="SPORT_CYCLING">Pyöräily</string>
+    <string id="SPORT_TRANSITION">Vaihto</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Kuntolaitteet</string>
+    <string id="SPORT_SWIMMING">Uinti</string>
+    <string id="SPORT_BASKETBALL">Koripallo</string>
+    <string id="SPORT_SOCCER">Jalkapallo</string>
+    <string id="SPORT_TENNIS">Tennis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Amerikkalainen jalkapallo</string>
+    <string id="SPORT_TRAINING">Harjoittelu</string>
+    <string id="SPORT_WALKING">Kävely</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Maastohiihto</string>
+    <string id="SPORT_ALPINE_SKIING">Alppihiihto</string>
+    <string id="SPORT_SNOWBOARDING">Lumilautailu</string>
+    <string id="SPORT_ROWING">Soutu</string>
+    <string id="SPORT_MOUNTAINEERING">Vuorikiipeily</string>
+    <string id="SPORT_HIKING">Vaellus</string>
+    <string id="SPORT_MULTISPORT">Moniurheilu</string>
+    <string id="SPORT_PADDLING">Melonta</string>
+    <string id="SPORT_FLYING">Lento</string>
+    <string id="SPORT_E_BIKING">Sähköpyöräily</string>
+    <string id="SPORT_MOTORCYCLING">Moottoripyöräily</string>
+    <string id="SPORT_BOATING">Veneily</string>
+    <string id="SPORT_DRIVING">Ajomatka</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Riippuliito</string>
+    <string id="SPORT_HORSEBACK_RIDING">Ratsastus</string>
+    <string id="SPORT_HUNTING">Metsästys</string>
+    <string id="SPORT_FISHING">Kalastus</string>
+    <string id="SPORT_INLINE_SKATING">Rullaluistelu</string>
+    <string id="SPORT_ROCK_CLIMBING">Kiipeily</string>
+    <string id="SPORT_SAILING">Purjehdus</string>
+    <string id="SPORT_ICE_SKATING">Luistelu</string>
+    <string id="SPORT_SKY_DIVING">Laskuvarjohyppy</string>
+    <string id="SPORT_SNOWSHOEING">Lumikenkäily</string>
+    <string id="SPORT_SNOWMOBILING">Moottorikelkkailu</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">SUP-lautailu</string>
+    <string id="SPORT_SURFING">Surffaus</string>
+    <string id="SPORT_WAKEBOARDING">Vesisuksilla</string>
+    <string id="SPORT_WATER_SKIING">Vesihiihto</string>
+    <string id="SPORT_KAYAKING">Kajakointi</string>
+    <string id="SPORT_RAFTING">Koskenlasku</string>
+    <string id="SPORT_WINDSURFING">Purjelautailu</string>
+    <string id="SPORT_KITESURFING">Leijalautailu</string>
+    <string id="SPORT_TACTICAL">Taktinen urheilu</string>
+    <string id="SPORT_JUMPMASTER">Tandem-hyppy</string>
+    <string id="SPORT_BOXING">Nyrkkeily</string>
+    <string id="SPORT_FLOOR_CLIMBING">Lattialla kiipeily</string>
+    <string id="SPORT_BASEBALL">Pesäpallo</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Pikasyöttö softball</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Hidas syöttö softball</string>
+    <string id="SPORT_SHOOTING">Ampuminen</string>
+    <string id="SPORT_AUTO_RACING">Autokilpailu</string>
+    <string id="SPORT_WINTER_SPORT">Talviurheilu</string>
+    <string id="SPORT_GRINDING">Puurtaminen</string>
+    <string id="SPORT_HEALTH_MONITORING">Terveysseuranta</string>
+    <string id="SPORT_MARINE">Merelliset urheilut</string>
+    <string id="SPORT_HIIT">HIIT-treeni</string>
+    <string id="SPORT_VIDEO_GAMING">Videopelit</string>
+    <string id="SPORT_RACKET">Mailapelit</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Pyörätuolikävely</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Pyörätuolijuoksu</string>
+    <string id="SPORT_MEDITATION">Meditaatio</string>
+    <string id="SPORT_PARA_SPORT">Para-urheilu</string>
+    <string id="SPORT_DISC_GOLF">Frisbeegolf</string>
+    <string id="SPORT_TEAM_SPORT">Joukkuelajit</string>
+    <string id="SPORT_CRICKET">Kriketti</string>
+    <string id="SPORT_RUGBY">Rugby</string>
+    <string id="SPORT_HOCKEY">Jääkiekko</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Lentopallo</string>
+    <string id="SPORT_WATER_TUBING">Vesisuuntäyttö</string>
+    <string id="SPORT_WAKESURFING">Vesilautailu</string>
+    <string id="SPORT_INVALID">Virheellinen urheilu</string>
+</strings>

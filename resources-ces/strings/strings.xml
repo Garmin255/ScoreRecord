@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Gólový záznam</string>
+
+    <string id="TeamName">Název týmu</string>
+
+    <string id="Home">Domácí</string>
+    <string id="Away">Hosté</string>
+
+    <string id="Home1">Tým 1</string>
+    <string id="Away1">Tým 2</string>
+
+    <string id="Home2">Stadion</string>
+    <string id="Away2">Škola</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Kliknutím na "START" spusťte\nDlouhým stiskem "UP" zobrazíte záznamy</string>
+
+    <string id="Continue">Pokračovat</string>
+    <string id="Save">Uložit</string>
+    <string id="GiveUp">Vzdát se</string>
+    <string id="Records">Gólový záznam</string>
+    <string id="Reset">Vymazat data</string>
+    <string id="Exit">Ukončit</string>
+
+    <string id="Confirm">Potvrdit</string>
+    <string id="Start">Začátek</string>
+    <string id="Stop">Konec</string>
+    <string id="HomeGoalLabel">Gól domácí</string>
+    <string id="AwayGoalLabel">Gól hosté</string>
+    <string id="HomeGoalTimeLabel">Čas domácí gól</string>
+    <string id="AwayGoalTimeLabel">Čas hosté gól</string>
+    <string id="Undo">Zrušit gól</string>
+    <string id="UndoError">Chyba při rušení</string>
+    <string id="NoRecords">Žádné gólové záznamy</string>
+    <string id="hasRecords">Nejprve zastavte</string>
+    <string id="Success">Úspěch</string>
+
+    <string id="TypesOfSport">Typy sportu</string>
+    <string id="SPORT_GENERIC">Obecný sport</string>
+    <string id="SPORT_RUNNING">Běh</string>
+    <string id="SPORT_CYCLING">Cyklistika</string>
+    <string id="SPORT_TRANSITION">Přechod</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Posilovací stroje</string>
+    <string id="SPORT_SWIMMING">Plavání</string>
+    <string id="SPORT_BASKETBALL">Basketbal</string>
+    <string id="SPORT_SOCCER">Fotbal</string>
+    <string id="SPORT_TENNIS">Tenis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Americký fotbal</string>
+    <string id="SPORT_TRAINING">Trénink</string>
+    <string id="SPORT_WALKING">Chůze</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Běh na lyžích</string>
+    <string id="SPORT_ALPINE_SKIING">Alpské lyžování</string>
+    <string id="SPORT_SNOWBOARDING">Snowboarding</string>
+    <string id="SPORT_ROWING">Veslování</string>
+    <string id="SPORT_MOUNTAINEERING">Horolezectví</string>
+    <string id="SPORT_HIKING">Turistika</string>
+    <string id="SPORT_MULTISPORT">Multi-sport</string>
+    <string id="SPORT_PADDLING">Pádlování</string>
+    <string id="SPORT_FLYING">Létání</string>
+    <string id="SPORT_E_BIKING">Elektrokolo</string>
+    <string id="SPORT_MOTORCYCLING">Motocykl</string>
+    <string id="SPORT_BOATING">Plavba na lodi</string>
+    <string id="SPORT_DRIVING">Jízda</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Paragliding</string>
+    <string id="SPORT_HORSEBACK_RIDING">Jízda na koni</string>
+    <string id="SPORT_HUNTING">Lov</string>
+    <string id="SPORT_FISHING">Rybaření</string>
+    <string id="SPORT_INLINE_SKATING">Inline bruslení</string>
+    <string id="SPORT_ROCK_CLIMBING">Horolezectví</string>
+    <string id="SPORT_SAILING">Plachtění</string>
+    <string id="SPORT_ICE_SKATING">Bruslení</string>
+    <string id="SPORT_SKY_DIVING">Seskok padákem</string>
+    <string id="SPORT_SNOWSHOEING">Chůze na sněžnicích</string>
+    <string id="SPORT_SNOWMOBILING">Jízda na sněžném skútru</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Paddleboarding</string>
+    <string id="SPORT_SURFING">Surfování</string>
+    <string id="SPORT_WAKEBOARDING">Wakeboarding</string>
+    <string id="SPORT_WATER_SKIING">Vodní lyžování</string>
+    <string id="SPORT_KAYAKING">Kajak</string>
+    <string id="SPORT_RAFTING">Rafting</string>
+    <string id="SPORT_WINDSURFING">Windsurfing</string>
+    <string id="SPORT_KITESURFING">Kitesurfing</string>
+    <string id="SPORT_TACTICAL">Taktický sport</string>
+    <string id="SPORT_JUMPMASTER">Mistr výsadkář</string>
+    <string id="SPORT_BOXING">Box</string>
+    <string id="SPORT_FLOOR_CLIMBING">Lezení po stěnách</string>
+    <string id="SPORT_BASEBALL">Baseball</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Softball rychlý</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Softball pomalý</string>
+    <string id="SPORT_SHOOTING">Střelba</string>
+    <string id="SPORT_AUTO_RACING">Automobilový závod</string>
+    <string id="SPORT_WINTER_SPORT">Zimní sport</string>
+    <string id="SPORT_GRINDING">Cvičení</string>
+    <string id="SPORT_HEALTH_MONITORING">Zdravotní monitoring</string>
+    <string id="SPORT_MARINE">Námořní sport</string>
+    <string id="SPORT_HIIT">Vysoce intenzivní intervalový trénink</string>
+    <string id="SPORT_VIDEO_GAMING">Videohry</string>
+    <string id="SPORT_RACKET">Rakety sport</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Pushing na vozíčku - chůze</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Pushing na vozíčku - běh</string>
+    <string id="SPORT_MEDITATION">Meditace</string>
+    <string id="SPORT_PARA_SPORT">Paralympijský sport</string>
+    <string id="SPORT_DISC_GOLF">Disk golf</string>
+    <string id="SPORT_TEAM_SPORT">Týmový sport</string>
+    <string id="SPORT_CRICKET">Kriket</string>
+    <string id="SPORT_RUGBY">Ragby</string>
+    <string id="SPORT_HOCKEY">Hokej</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Volejbal</string>
+    <string id="SPORT_WATER_TUBING">Vodní skútr</string>
+    <string id="SPORT_WAKESURFING">Wakesurfing</string>
+    <string id="SPORT_INVALID">Neplatný sport</string>
+</strings>

@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Ghi chép Bàn thắng</string>
+
+    <string id="TeamName">Tên đội</string>
+
+    <string id="Home">Đội nhà</string>
+    <string id="Away">Đội khách</string>
+
+    <string id="Home1">Đội 1</string>
+    <string id="Away1">Đội 2</string>
+
+    <string id="Home2">Khán đài</string>
+    <string id="Away2">Trường học</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Nhấn "START" để bắt đầu\nNhấn giữ "UP" để xem ghi chép</string>
+
+    <string id="Continue">Tiếp tục</string>
+    <string id="Save">Lưu</string>
+    <string id="GiveUp">Bỏ cuộc</string>
+    <string id="Records">Ghi chép Bàn thắng</string>
+    <string id="Reset">Xóa dữ liệu</string>
+    <string id="Exit">Thoát</string>
+
+    <string id="Confirm">Xác nhận</string>
+    <string id="Start">Bắt đầu vận động</string>
+    <string id="Stop">Kết thúc vận động</string>
+    <string id="HomeGoalLabel">Đội nhà ghi bàn</string>
+    <string id="AwayGoalLabel">Đội khách ghi bàn</string>
+    <string id="HomeGoalTimeLabel">Thời gian đội nhà</string>
+    <string id="AwayGoalTimeLabel">Thời gian đội khách</string>
+    <string id="Undo">Hủy ghi bàn</string>
+    <string id="UndoError">Hủy lỗi</string>
+    <string id="NoRecords">Không có ghi chép bàn thắng</string>
+    <string id="hasRecords">Vui lòng dừng lại trước</string>
+    <string id="Success">Thành công</string>
+
+    <string id="TypesOfSport">Loại hình thể thao</string>
+    <string id="SPORT_GENERIC">Thể thao chung</string>
+    <string id="SPORT_RUNNING">Chạy bộ</string>
+    <string id="SPORT_CYCLING">Đạp xe</string>
+    <string id="SPORT_TRANSITION">Chuyển tiếp</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Thiết bị thể dục</string>
+    <string id="SPORT_SWIMMING">Bơi lội</string>
+    <string id="SPORT_BASKETBALL">Bóng rổ</string>
+    <string id="SPORT_SOCCER">Bóng đá</string>
+    <string id="SPORT_TENNIS">Quần vợt</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Bóng bầu dục Mỹ</string>
+    <string id="SPORT_TRAINING">Huấn luyện</string>
+    <string id="SPORT_WALKING">Đi bộ</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Trượt tuyết việt dã</string>
+    <string id="SPORT_ALPINE_SKIING">Trượt tuyết núi cao</string>
+    <string id="SPORT_SNOWBOARDING">Trượt ván tuyết</string>
+    <string id="SPORT_ROWING">Chèo thuyền</string>
+    <string id="SPORT_MOUNTAINEERING">Leo núi</string>
+    <string id="SPORT_HIKING">Leo đồi</string>
+    <string id="SPORT_MULTISPORT">Thể thao đa dạng</string>
+    <string id="SPORT_PADDLING">Chèo</string>
+    <string id="SPORT_FLYING">Bay</string>
+    <string id="SPORT_E_BIKING">Xe đạp điện</string>
+    <string id="SPORT_MOTORCYCLING">Đi xe máy</string>
+    <string id="SPORT_BOATING">Đi thuyền</string>
+    <string id="SPORT_DRIVING">Lái xe</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Dù lượn</string>
+    <string id="SPORT_HORSEBACK_RIDING">Cưỡi ngựa</string>
+    <string id="SPORT_HUNTING">Săn bắn</string>
+    <string id="SPORT_FISHING">Câu cá</string>
+    <string id="SPORT_INLINE_SKATING">Trượt patin</string>
+    <string id="SPORT_ROCK_CLIMBING">Leo núi đá</string>
+    <string id="SPORT_SAILING">Đi thuyền buồm</string>
+    <string id="SPORT_ICE_SKATING">Trượt băng</string>
+    <string id="SPORT_SKY_DIVING">Nhảy dù</string>
+    <string id="SPORT_SNOWSHOEING">Đi giày tuyết</string>
+    <string id="SPORT_SNOWMOBILING">Xe trượt tuyết</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Lướt ván đứng</string>
+    <string id="SPORT_SURFING">Lướt sóng</string>
+    <string id="SPORT_WAKEBOARDING">Lướt ván kéo</string>
+    <string id="SPORT_WATER_SKIING">Trượt nước</string>
+    <string id="SPORT_KAYAKING">Chèo thuyền kayak</string>
+    <string id="SPORT_RAFTING">Chèo bè</string>
+    <string id="SPORT_WINDSURFING">Lướt ván buồm</string>
+    <string id="SPORT_KITESURFING">Lướt ván diều</string>
+    <string id="SPORT_TACTICAL">Thể thao chiến thuật</string>
+    <string id="SPORT_JUMPMASTER">Hướng dẫn nhảy dù</string>
+    <string id="SPORT_BOXING">Quyền anh</string>
+    <string id="SPORT_FLOOR_CLIMBING">Leo sàn</string>
+    <string id="SPORT_BASEBALL">Bóng chày</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Bóng mềm ném nhanh</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Bóng mềm ném chậm</string>
+    <string id="SPORT_SHOOTING">Bắn súng</string>
+    <string id="SPORT_AUTO_RACING">Đua xe</string>
+    <string id="SPORT_WINTER_SPORT">Thể thao mùa đông</string>
+    <string id="SPORT_GRINDING">Rèn luyện</string>
+    <string id="SPORT_HEALTH_MONITORING">Theo dõi sức khỏe</string>
+    <string id="SPORT_MARINE">Thể thao biển</string>
+    <string id="SPORT_HIIT">Đào tạo cường độ cao ngắt quãng</string>
+    <string id="SPORT_VIDEO_GAMING">Trò chơi điện tử</string>
+    <string id="SPORT_RACKET">Thể thao với vợt</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Ngồi xe lăn đi bộ</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Ngồi xe lăn chạy</string>
+    <string id="SPORT_MEDITATION">Thiền</string>
+    <string id="SPORT_PARA_SPORT">Thể thao paralympic</string>
+    <string id="SPORT_DISC_GOLF">Golf đĩa</string>
+    <string id="SPORT_TEAM_SPORT">Thể thao đồng đội</string>
+    <string id="SPORT_CRICKET">Bóng gậy</string>
+    <string id="SPORT_RUGBY">Bóng bầu dục</string>
+    <string id="SPORT_HOCKEY">Khúc côn cầu</string>
+    <string id="SPORT_LACROSSE">Bóng vợt</string>
+    <string id="SPORT_VOLLEYBALL">Bóng chuyền</string>
+    <string id="SPORT_WATER_TUBING">Kéo phao nước</string>
+    <string id="SPORT_WAKESURFING">Lướt sóng sau thuyền</string>
+    <string id="SPORT_INVALID">Thể thao không hợp lệ</string>
+</strings>

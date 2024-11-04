@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Catatan Gol</string>
+
+    <string id="TeamName">Nama Tim</string>
+
+    <string id="Home">Tim Tuan Rumah</string>
+    <string id="Away">Tim Tamu</string>
+
+    <string id="Home1">Tim 1</string>
+    <string id="Away1">Tim 2</string>
+
+    <string id="Home2">Tribun</string>
+    <string id="Away2">Sekolah</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Klik "START" untuk memulai\nTahan "UP" untuk melihat catatan</string>
+
+    <string id="Continue">Lanjutkan</string>
+    <string id="Save">Simpan</string>
+    <string id="GiveUp">Menyerah</string>
+    <string id="Records">Catatan Gol</string>
+    <string id="Reset">Hapus Data</string>
+    <string id="Exit">Keluar</string>
+
+    <string id="Confirm">Konfirmasi</string>
+    <string id="Start">Mulai Olahraga</string>
+    <string id="Stop">Akhiri Olahraga</string>
+    <string id="HomeGoalLabel">Gol Tim Tuan Rumah</string>
+    <string id="AwayGoalLabel">Gol Tim Tamu</string>
+    <string id="HomeGoalTimeLabel">Waktu Gol Tuan Rumah</string>
+    <string id="AwayGoalTimeLabel">Waktu Gol Tamu</string>
+    <string id="Undo">Batalkan Gol</string>
+    <string id="UndoError">Batalkan Kesalahan</string>
+    <string id="NoRecords">Tidak Ada Catatan Gol</string>
+    <string id="hasRecords">Silakan berhenti terlebih dahulu</string>
+    <string id="Success">Berhasil</string>
+
+    <string id="TypesOfSport">Jenis Olahraga</string>
+    <string id="SPORT_GENERIC">Olahraga Umum</string>
+    <string id="SPORT_RUNNING">Lari</string>
+    <string id="SPORT_CYCLING">Bersepeda</string>
+    <string id="SPORT_TRANSITION">Transisi</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Peralatan Kebugaran</string>
+    <string id="SPORT_SWIMMING">Renang</string>
+    <string id="SPORT_BASKETBALL">Bola Basket</string>
+    <string id="SPORT_SOCCER">Sepak Bola</string>
+    <string id="SPORT_TENNIS">Tenis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Football Amerika</string>
+    <string id="SPORT_TRAINING">Latihan</string>
+    <string id="SPORT_WALKING">Jalan Kaki</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Ski Lintas Alam</string>
+    <string id="SPORT_ALPINE_SKIING">Ski Alpen</string>
+    <string id="SPORT_SNOWBOARDING">Seluncur Salju</string>
+    <string id="SPORT_ROWING">Dayung</string>
+    <string id="SPORT_MOUNTAINEERING">Pendakian Gunung</string>
+    <string id="SPORT_HIKING">Pendakian</string>
+    <string id="SPORT_MULTISPORT">Multiolahraga</string>
+    <string id="SPORT_PADDLING">Mendayung</string>
+    <string id="SPORT_FLYING">Terbang</string>
+    <string id="SPORT_E_BIKING">Sepeda Listrik</string>
+    <string id="SPORT_MOTORCYCLING">Bermotor</string>
+    <string id="SPORT_BOATING">Perahu</string>
+    <string id="SPORT_DRIVING">Mengemudi</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Melayang Gantung</string>
+    <string id="SPORT_HORSEBACK_RIDING">Menunggang Kuda</string>
+    <string id="SPORT_HUNTING">Berburu</string>
+    <string id="SPORT_FISHING">Memancing</string>
+    <string id="SPORT_INLINE_SKATING">Sepatu Roda</string>
+    <string id="SPORT_ROCK_CLIMBING">Panjat Tebing</string>
+    <string id="SPORT_SAILING">Berlayar</string>
+    <string id="SPORT_ICE_SKATING">Seluncur Es</string>
+    <string id="SPORT_SKY_DIVING">Terjun Payung</string>
+    <string id="SPORT_SNOWSHOEING">Berjalan di Salju</string>
+    <string id="SPORT_SNOWMOBILING">Mobil Salju</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Dayung Berdiri</string>
+    <string id="SPORT_SURFING">Berselancar</string>
+    <string id="SPORT_WAKEBOARDING">Papan Air</string>
+    <string id="SPORT_WATER_SKIING">Ski Air</string>
+    <string id="SPORT_KAYAKING">Kayak</string>
+    <string id="SPORT_RAFTING">Arung Jeram</string>
+    <string id="SPORT_WINDSURFING">Selancar Angin</string>
+    <string id="SPORT_KITESURFING">Selancar Layang</string>
+    <string id="SPORT_TACTICAL">Olahraga Taktis</string>
+    <string id="SPORT_JUMPMASTER">Pelatih Terjun</string>
+    <string id="SPORT_BOXING">Tinju</string>
+    <string id="SPORT_FLOOR_CLIMBING">Panjat Lantai</string>
+    <string id="SPORT_BASEBALL">Bisbol</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Softball Cepat</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Softball Lambat</string>
+    <string id="SPORT_SHOOTING">Menembak</string>
+    <string id="SPORT_AUTO_RACING">Balap Mobil</string>
+    <string id="SPORT_WINTER_SPORT">Olahraga Musim Dingin</string>
+    <string id="SPORT_GRINDING">Permesinan</string>
+    <string id="SPORT_HEALTH_MONITORING">Pemantauan Kesehatan</string>
+    <string id="SPORT_MARINE">Olahraga Laut</string>
+    <string id="SPORT_HIIT">Latihan Interval Intensitas Tinggi</string>
+    <string id="SPORT_VIDEO_GAMING">Permainan Video</string>
+    <string id="SPORT_RACKET">Olahraga Raket</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Dorong Kursi Roda - Jalan</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Dorong Kursi Roda - Lari</string>
+    <string id="SPORT_MEDITATION">Meditasi</string>
+    <string id="SPORT_PARA_SPORT">Olah Raga Paralimpik</string>
+    <string id="SPORT_DISC_GOLF">Frisbee Golf</string>
+    <string id="SPORT_TEAM_SPORT">Olahraga Tim</string>
+    <string id="SPORT_CRICKET">Kriket</string>
+    <string id="SPORT_RUGBY">Rugby</string>
+    <string id="SPORT_HOCKEY">Hoki</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Voli</string>
+    <string id="SPORT_WATER_TUBING">Berseluncur Air</string>
+    <string id="SPORT_WAKESURFING">Berselancar Ombak</string>
+    <string id="SPORT_INVALID">Olahraga Tidak Valid</string>
+</strings>

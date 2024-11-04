@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Väravate Arvestus</string>
+
+    <string id="TeamName">Meeskonna Nimi</string>
+
+    <string id="Home">Kodumeeskond</string>
+    <string id="Away">Võõrsilmeeskond</string>
+
+    <string id="Home1">Meeskond 1</string>
+    <string id="Away1">Meeskond 2</string>
+
+    <string id="Home2">Tribüün</string>
+    <string id="Away2">Kool</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Klõpsa „START“ alustamiseks\nPika vajutusega „UP“ näed kirjeid</string>
+
+    <string id="Continue">Jätka</string>
+    <string id="Save">Salvesta</string>
+    <string id="GiveUp">Loobu</string>
+    <string id="Records">Väravate Arvestus</string>
+    <string id="Reset">Tühjenda Andmed</string>
+    <string id="Exit">Välju</string>
+
+    <string id="Confirm">Kinnita</string>
+    <string id="Start">Alusta</string>
+    <string id="Stop">Peata</string>
+    <string id="HomeGoalLabel">Kodumeeskonna Värav</string>
+    <string id="AwayGoalLabel">Võõrsilmeeskonna Värav</string>
+    <string id="HomeGoalTimeLabel">Kodumeeskonna Aeg</string>
+    <string id="AwayGoalTimeLabel">Võõrsilmeeskonna Aeg</string>
+    <string id="Undo">Värav Tühista</string>
+    <string id="UndoError">Viga Tühista</string>
+    <string id="NoRecords">Väravate Kirjeid Pole</string>
+    <string id="hasRecords">Peata Enne</string>
+    <string id="Success">Edukas</string>
+
+    <string id="TypesOfSport">Spordialad</string>
+    <string id="SPORT_GENERIC">Üldine Sport</string>
+    <string id="SPORT_RUNNING">Jooksmine</string>
+    <string id="SPORT_CYCLING">Jalgrattasõit</string>
+    <string id="SPORT_TRANSITION">Üleminek</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Treenimisvahendid</string>
+    <string id="SPORT_SWIMMING">Ujumine</string>
+    <string id="SPORT_BASKETBALL">Korvpall</string>
+    <string id="SPORT_SOCCER">Jalgpall</string>
+    <string id="SPORT_TENNIS">Tennis</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Ameerika Jalgpall</string>
+    <string id="SPORT_TRAINING">Treening</string>
+    <string id="SPORT_WALKING">Jalutamine</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Murdmaasuusatamine</string>
+    <string id="SPORT_ALPINE_SKIING">Alpineesuusatamine</string>
+    <string id="SPORT_SNOWBOARDING">Lumelauasõit</string>
+    <string id="SPORT_ROWING">Sõudmine</string>
+    <string id="SPORT_MOUNTAINEERING">Alpinism</string>
+    <string id="SPORT_HIKING">Matkamine</string>
+    <string id="SPORT_MULTISPORT">Mitmevõistlus</string>
+    <string id="SPORT_PADDLING">Aerutamine</string>
+    <string id="SPORT_FLYING">Lennusport</string>
+    <string id="SPORT_E_BIKING">Elektrijalgrattasõit</string>
+    <string id="SPORT_MOTORCYCLING">Mootorrattasõit</string>
+    <string id="SPORT_BOATING">Paadisport</string>
+    <string id="SPORT_DRIVING">Juhendamine</string>
+    <string id="SPORT_GOLF">Golf</string>
+    <string id="SPORT_HANG_GLIDING">Rippvarjusport</string>
+    <string id="SPORT_HORSEBACK_RIDING">Ratsutamine</string>
+    <string id="SPORT_HUNTING">Jahindus</string>
+    <string id="SPORT_FISHING">Kalapüük</string>
+    <string id="SPORT_INLINE_SKATING">Rulluisutamine</string>
+    <string id="SPORT_ROCK_CLIMBING">Kaljuronimine</string>
+    <string id="SPORT_SAILING">Purjetamine</string>
+    <string id="SPORT_ICE_SKATING">Uisutamine</string>
+    <string id="SPORT_SKY_DIVING">Taeva sukeldumine</string>
+    <string id="SPORT_SNOWSHOEING">Lumeräätsadega Käimine</string>
+    <string id="SPORT_SNOWMOBILING">Lumemootorsõit</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Aerulauasõit</string>
+    <string id="SPORT_SURFING">Surfamine</string>
+    <string id="SPORT_WAKEBOARDING">Veedragi</string>
+    <string id="SPORT_WATER_SKIING">Vee-suusatamine</string>
+    <string id="SPORT_KAYAKING">Süstasõit</string>
+    <string id="SPORT_RAFTING">Parvetamine</string>
+    <string id="SPORT_WINDSURFING">Purjelauasõit</string>
+    <string id="SPORT_KITESURFING">Lohesurf</string>
+    <string id="SPORT_TACTICAL">Taktikaline Sport</string>
+    <string id="SPORT_JUMPMASTER">Langevarjuõpetaja</string>
+    <string id="SPORT_BOXING">Poks</string>
+    <string id="SPORT_FLOOR_CLIMBING">Seina Ronimine</string>
+    <string id="SPORT_BASEBALL">Pesapall</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Kiiret Palija</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Aeglane Palija</string>
+    <string id="SPORT_SHOOTING">Laskmine</string>
+    <string id="SPORT_AUTO_RACING">Auto Võidusõit</string>
+    <string id="SPORT_WINTER_SPORT">Talispordialad</string>
+    <string id="SPORT_GRINDING">Treening</string>
+    <string id="SPORT_HEALTH_MONITORING">Tervise Jälgimine</string>
+    <string id="SPORT_MARINE">Mere Spordialad</string>
+    <string id="SPORT_HIIT">KüHIT Treening</string>
+    <string id="SPORT_VIDEO_GAMING">Videomängud</string>
+    <string id="SPORT_RACKET">Reketisport</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Ratastooli Lüknii[email protected]uli</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Ratastooli Lüknii[email protected]uga</string>
+    <string id="SPORT_MEDITATION">Meditatsioon</string>
+    <string id="SPORT_PARA_SPORT">Paraspordialad</string>
+    <string id="SPORT_DISC_GOLF">Kettagolf</string>
+    <string id="SPORT_TEAM_SPORT">Meeskonnamängud</string>
+    <string id="SPORT_CRICKET">Kriket</string>
+    <string id="SPORT_RUGBY">Ragbi</string>
+    <string id="SPORT_HOCKEY">Hoki</string>
+    <string id="SPORT_LACROSSE">Lacrosse</string>
+    <string id="SPORT_VOLLEYBALL">Võrkpall</string>
+    <string id="SPORT_WATER_TUBING">Vee Torusõit</string>
+    <string id="SPORT_WAKESURFING">Vetik Wakesurf</string>
+    <string id="SPORT_INVALID">Kehtetu Spordiala</string>
+</strings>

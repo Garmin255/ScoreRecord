@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">บันทึกการทำประตู</string>
+
+    <string id="TeamName">ชื่อทีม</string>
+
+    <string id="Home">ทีมเหย้า</string>
+    <string id="Away">ทีมเยือน</string>
+
+    <string id="Home1">ทีม 1</string>
+    <string id="Away1">ทีม 2</string>
+
+    <string id="Home2">อัฒจันทร์</string>
+    <string id="Away2">โรงเรียน</string>
+
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">คลิก “START” เพื่อเริ่ม\nกดค้าง “UP” เพื่อดูบันทึก</string>
+
+    <string id="Continue">ต่อไป</string>
+    <string id="Save">บันทึก</string>
+    <string id="GiveUp">ยอมแพ้</string>
+    <string id="Records">บันทึกการทำประตู</string>
+    <string id="Reset">ล้างข้อมูล</string>
+    <string id="Exit">ออก</string>
+
+    <string id="Confirm">ยืนยัน</string>
+    <string id="Start">เริ่มการออกกำลังกาย</string>
+    <string id="Stop">สิ้นสุดการออกกำลังกาย</string>
+    <string id="HomeGoalLabel">ทีมเหย้าทำประตู</string>
+    <string id="AwayGoalLabel">ทีมเยือนทำประตู</string>
+    <string id="HomeGoalTimeLabel">เวลาทีมเหย้า</string>
+    <string id="AwayGoalTimeLabel">เวลาทีมเยือน</string>
+    <string id="Undo">ยกเลิกการทำประตู</string>
+    <string id="UndoError">ยกเลิกข้อผิดพลาด</string>
+    <string id="NoRecords">ไม่มีบันทึกการทำประตู</string>
+    <string id="hasRecords">กรุณาหยุดก่อน</string>
+    <string id="Success">สำเร็จ</string>
+
+    <string id="TypesOfSport">ประเภทกีฬา</string>
+    <string id="SPORT_GENERIC">กีฬาทั่วไป</string>
+    <string id="SPORT_RUNNING">วิ่ง</string>
+    <string id="SPORT_CYCLING">ปั่นจักรยาน</string>
+    <string id="SPORT_TRANSITION">ช่วงพัก</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">อุปกรณ์ฟิตเนส</string>
+    <string id="SPORT_SWIMMING">ว่ายน้ำ</string>
+    <string id="SPORT_BASKETBALL">บาสเกตบอล</string>
+    <string id="SPORT_SOCCER">ฟุตบอล</string>
+    <string id="SPORT_TENNIS">เทนนิส</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">อเมริกันฟุตบอล</string>
+    <string id="SPORT_TRAINING">ฝึกซ้อม</string>
+    <string id="SPORT_WALKING">เดิน</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">สกีครอสคันทรี</string>
+    <string id="SPORT_ALPINE_SKIING">สกีอัลไพน์</string>
+    <string id="SPORT_SNOWBOARDING">สโนว์บอร์ด</string>
+    <string id="SPORT_ROWING">พายเรือ</string>
+    <string id="SPORT_MOUNTAINEERING">ปีนเขา</string>
+    <string id="SPORT_HIKING">เดินป่า</string>
+    <string id="SPORT_MULTISPORT">กีฬาหลายประเภท</string>
+    <string id="SPORT_PADDLING">พายเรือคายัค</string>
+    <string id="SPORT_FLYING">บิน</string>
+    <string id="SPORT_E_BIKING">จักรยานไฟฟ้า</string>
+    <string id="SPORT_MOTORCYCLING">ขี่มอเตอร์ไซต์</string>
+    <string id="SPORT_BOATING">กีฬาทางน้ำ</string>
+    <string id="SPORT_DRIVING">ขับรถ</string>
+    <string id="SPORT_GOLF">กอล์ฟ</string>
+    <string id="SPORT_HANG_GLIDING">เครื่องร่อน</string>
+    <string id="SPORT_HORSEBACK_RIDING">ขี่ม้า</string>
+    <string id="SPORT_HUNTING">ล่าสัตว์</string>
+    <string id="SPORT_FISHING">ตกปลา</string>
+    <string id="SPORT_INLINE_SKATING">อินไลน์สเก็ต</string>
+    <string id="SPORT_ROCK_CLIMBING">ปีนผา</string>
+    <string id="SPORT_SAILING">เรือใบ</string>
+    <string id="SPORT_ICE_SKATING">สเก็ตน้ำแข็ง</string>
+    <string id="SPORT_SKY_DIVING">กระโดดร่ม</string>
+    <string id="SPORT_SNOWSHOEING">รองเท้าหิมะ</string>
+    <string id="SPORT_SNOWMOBILING">สโนว์โมบิล</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">แพดเดิลบอร์ด</string>
+    <string id="SPORT_SURFING">โต้คลื่น</string>
+    <string id="SPORT_WAKEBOARDING">เวกบอร์ด</string>
+    <string id="SPORT_WATER_SKIING">สกีน้ำ</string>
+    <string id="SPORT_KAYAKING">พายคายัค</string>
+    <string id="SPORT_RAFTING">ล่องแก่ง</string>
+    <string id="SPORT_WINDSURFING">วินด์เซิร์ฟ</string>
+    <string id="SPORT_KITESURFING">ไคท์เซิร์ฟ</string>
+    <string id="SPORT_TACTICAL">กีฬายุทธวิธี</string>
+    <string id="SPORT_JUMPMASTER">ครูฝึกกระโดดร่ม</string>
+    <string id="SPORT_BOXING">มวย</string>
+    <string id="SPORT_FLOOR_CLIMBING">ปีนพื้น</string>
+    <string id="SPORT_BASEBALL">เบสบอล</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">ซอฟต์บอลฟาสพิตช์</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">ซอฟต์บอลสโลว์พิตช์</string>
+    <string id="SPORT_SHOOTING">ยิงปืน</string>
+    <string id="SPORT_AUTO_RACING">แข่งรถ</string>
+    <string id="SPORT_WINTER_SPORT">กีฬาฤดูหนาว</string>
+    <string id="SPORT_GRINDING">การฝึกฝน</string>
+    <string id="SPORT_HEALTH_MONITORING">การตรวจสุขภาพ</string>
+    <string id="SPORT_MARINE">กีฬาทางทะเล</string>
+    <string id="SPORT_HIIT">การฝึกหนัก</string>
+    <string id="SPORT_VIDEO_GAMING">วิดีโอเกม</string>
+    <string id="SPORT_RACKET">กีฬาแร็กเก็ต</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">เก้าอี้ล้อเลื่อนเดิน</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">เก้าอี้ยอล้อเลื่อนวิ่ง</string>
+    <string id="SPORT_MEDITATION">การทำสมาธิ</string>
+    <string id="SPORT_PARA_SPORT">กีฬาคนพิการ</string>
+    <string id="SPORT_DISC_GOLF">ดิสก์กอล์ฟ</string>
+    <string id="SPORT_TEAM_SPORT">กีฬาประเภททีม</string>
+    <string id="SPORT_CRICKET">คริกเก็ต</string>
+    <string id="SPORT_RUGBY">รักบี้</string>
+    <string id="SPORT_HOCKEY">ฮอกกี้</string>
+    <string id="SPORT_LACROSSE">ลาครอส</string>
+    <string id="SPORT_VOLLEYBALL">วอลเลย์บอล</string>
+    <string id="SPORT_WATER_TUBING">ทูบิงน้ำ</string>
+    <string id="SPORT_WAKESURFING">เวคเซิร์ฟ</string>
+    <string id="SPORT_INVALID">กีฬาที่ไม่ถูกต้อง</string>
+</strings>

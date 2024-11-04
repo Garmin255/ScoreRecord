@@ -1,0 +1,114 @@
+<strings>
+    <string id="AppName">Голмайстор</string>
+
+    <string id="TeamName">Име на отбора</string>
+
+    <string id="Home">Домакин</string>
+    <string id="Away">Гост</string>
+
+    <string id="Home1">Отбор 1</string>
+    <string id="Away1">Отбор 2</string>
+
+    <string id="Home2">Трибуна</string>
+    <string id="Away2">Училище</string>
+    
+    <string id="ScoreSeparator"> - </string>
+    <string id="Prompt">Натиснете „START“, за да започнете\nНатиснете и задръжте „UP“, за да видите записите</string>
+
+    <string id="Continue">Продължи</string>
+    <string id="Save">Запази</string>
+    <string id="GiveUp">Откажи се</string>
+    <string id="Records">Голмайстори</string>
+    <string id="Reset">Изчисти данните</string>
+    <string id="Exit">Изход</string>
+
+    <string id="Confirm">Потвърди</string>
+    <string id="Start">Начало</string>
+    <string id="Stop">Край</string>
+    <string id="HomeGoalLabel">Гол за домакина</string>
+    <string id="AwayGoalLabel">Гол за госта</string>
+    <string id="HomeGoalTimeLabel">Време за гол на домакина</string>
+    <string id="AwayGoalTimeLabel">Време за гол на госта</string>
+    <string id="Undo">Отмяна на гол</string>
+    <string id="UndoError">Грешка при отмяна</string>
+    <string id="NoRecords">Няма записи за голове</string>
+    <string id="hasRecords">Моля, спрете първо</string>
+    <string id="Success">Успех</string>
+
+    <string id="TypesOfSport">Видове спорт</string>
+    <string id="SPORT_GENERIC">Общ спорт</string>
+    <string id="SPORT_RUNNING">Бягане</string>
+    <string id="SPORT_CYCLING">Колоездене</string>
+    <string id="SPORT_TRANSITION">Прехвърляне</string>
+    <string id="SPORT_FITNESS_EQUIPMENT">Фитнес уреди</string>
+    <string id="SPORT_SWIMMING">Плуване</string>
+    <string id="SPORT_BASKETBALL">Баскетбол</string>
+    <string id="SPORT_SOCCER">Футбол</string>
+    <string id="SPORT_TENNIS">Тенис</string>
+    <string id="SPORT_AMERICAN_FOOTBALL">Американски футбол</string>
+    <string id="SPORT_TRAINING">Тренировка</string>
+    <string id="SPORT_WALKING">Разходка</string>
+    <string id="SPORT_CROSS_COUNTRY_SKIING">Ски бягане</string>
+    <string id="SPORT_ALPINE_SKIING">Алпийски ски</string>
+    <string id="SPORT_SNOWBOARDING">Сноуборд</string>
+    <string id="SPORT_ROWING">Гребане</string>
+    <string id="SPORT_MOUNTAINEERING">Планинарство</string>
+    <string id="SPORT_HIKING">Туризъм</string>
+    <string id="SPORT_MULTISPORT">Мултиспорт</string>
+    <string id="SPORT_PADDLING">Гребане</string>
+    <string id="SPORT_FLYING">Летене</string>
+    <string id="SPORT_E_BIKING">Електрически велосипеди</string>
+    <string id="SPORT_MOTORCYCLING">Моторизъм</string>
+    <string id="SPORT_BOATING">Лодки</string>
+    <string id="SPORT_DRIVING">Шофиране</string>
+    <string id="SPORT_GOLF">Голф</string>
+    <string id="SPORT_HANG_GLIDING">Делтапланеризъм</string>
+    <string id="SPORT_HORSEBACK_RIDING">Конна езда</string>
+    <string id="SPORT_HUNTING">Лов</string>
+    <string id="SPORT_FISHING">Риболов</string>
+    <string id="SPORT_INLINE_SKATING">Кънки на колела</string>
+    <string id="SPORT_ROCK_CLIMBING">Катерене</string>
+    <string id="SPORT_SAILING">Ветроходство</string>
+    <string id="SPORT_ICE_SKATING">Кънки на лед</string>
+    <string id="SPORT_SKY_DIVING">Скайдайвинг</string>
+    <string id="SPORT_SNOWSHOEING">Ходене със снегоходки</string>
+    <string id="SPORT_SNOWMOBILING">Моторни шейни</string>
+    <string id="SPORT_STAND_UP_PADDLEBOARDING">Сърф гребане</string>
+    <string id="SPORT_SURFING">Сърфинг</string>
+    <string id="SPORT_WAKEBOARDING">Уейкборд</string>
+    <string id="SPORT_WATER_SKIING">Водни ски</string>
+    <string id="SPORT_KAYAKING">Каяк</string>
+    <string id="SPORT_RAFTING">Рафтинг</string>
+    <string id="SPORT_WINDSURFING">Уиндсърфинг</string>
+    <string id="SPORT_KITESURFING">Кайтсърфинг</string>
+    <string id="SPORT_TACTICAL">Тактически спорт</string>
+    <string id="SPORT_JUMPMASTER">Инструктор по скайдайвинг</string>
+    <string id="SPORT_BOXING">Бокс</string>
+    <string id="SPORT_FLOOR_CLIMBING">Катерене в зала</string>
+    <string id="SPORT_BASEBALL">Бейзбол</string>
+    <string id="SPORT_SOFTBALL_FAST_PITCH">Софтбол - бърз</string>
+    <string id="SPORT_SOFTBALL_SLOW_PITCH">Софтбол - бавен</string>
+    <string id="SPORT_SHOOTING">Стрелба</string>
+    <string id="SPORT_AUTO_RACING">Автогонки</string>
+    <string id="SPORT_WINTER_SPORT">Зимни спортове</string>
+    <string id="SPORT_GRINDING">Натрупване на умения</string>
+    <string id="SPORT_HEALTH_MONITORING">Здравен мониторинг</string>
+    <string id="SPORT_MARINE">Морски спорт</string>
+    <string id="SPORT_HIIT">Високоинтензивни тренировки</string>
+    <string id="SPORT_VIDEO_GAMING">Видео игри</string>
+    <string id="SPORT_RACKET">Ракетни спортове</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_WALK">Разходка с инвалидна количка</string>
+    <string id="SPORT_WHEELCHAIR_PUSH_RUN">Бягане с инвалидна количка</string>
+    <string id="SPORT_MEDITATION">Медитация</string>
+    <string id="SPORT_PARA_SPORT">Параспорт</string>
+    <string id="SPORT_DISC_GOLF">Фрисби голф</string>
+    <string id="SPORT_TEAM_SPORT">Отборен спорт</string>
+    <string id="SPORT_CRICKET">Крикет</string>
+    <string id="SPORT_RUGBY">Ръгби</string>
+    <string id="SPORT_HOCKEY">Хокей</string>
+    <string id="SPORT_LACROSSE">Лакрос</string>
+    <string id="SPORT_VOLLEYBALL">Волейбол</string>
+    <string id="SPORT_WATER_TUBING">Тръбинг на вода</string>
+    <string id="SPORT_WAKESURFING">Уейксърфинг</string>
+    <string id="SPORT_INVALID">Невалиден спорт</string>
+</strings>
