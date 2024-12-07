@@ -23,7 +23,7 @@ class SoccerView extends WatchUi.View {
 	var lastScored = new [0];
 	var myTimer = new Timer.Timer();
 	var currentTime;
-    var currentVersion = "v1.5.20241207";
+    var currentVersion = "v1.6.20241207";
     var matchSeconds =  0;
 	var matchTimer = new Timer.Timer();
     var info as Activity.Info;

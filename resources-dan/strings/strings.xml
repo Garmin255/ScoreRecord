@@ -111,4 +111,6 @@
     <string id="SPORT_WATER_TUBING">Vandslange</string>
     <string id="SPORT_WAKESURFING">Wake-surfing</string>
     <string id="SPORT_INVALID">Ugyldig sport</string>
+
+    <string id="Sync">Synkroniser</string>
 </strings>

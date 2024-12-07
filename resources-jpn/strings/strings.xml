@@ -111,4 +111,5 @@
     <string id="SPORT_WATER_TUBING">ウォーターチュービング</string>
     <string id="SPORT_WAKESURFING">ウェイクサーフィン</string>
     <string id="SPORT_INVALID">無効なスポーツ</string>
+    <string id="Sync">同期</string>
 </strings>

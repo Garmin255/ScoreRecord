@@ -50,6 +50,10 @@ The basic features have been implemented.
 
 1. Internationalization
 
+### 2024/12/07 v1.6
+
+1. iOS Report
+
 缩写	| 中文 |	英文
 ---|---|---
 ara	| 阿拉伯语	| Arabic
@@ -110,3 +114,5 @@ zsm	| 马来语	| Malay
 ![PageReport](Screenshots/PageReport.png)
 
 ![TypesOfSport](Screenshots/TypesOfSport.png)
+
+![iOS](Screenshots/iOS.jpg)

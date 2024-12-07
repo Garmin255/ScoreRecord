@@ -111,4 +111,5 @@
     <string id="SPORT_WATER_TUBING">Vesisuuntäyttö</string>
     <string id="SPORT_WAKESURFING">Vesilautailu</string>
     <string id="SPORT_INVALID">Virheellinen urheilu</string>
+    <string id="Sync">Synkronoi</string>
 </strings>

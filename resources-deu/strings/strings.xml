@@ -103,4 +103,5 @@
     <string id="SPORT_WATER_TUBING">Wasserschlauch</string>
     <string id="SPORT_WAKESURFING">Wakesurfen</string>
     <string id="SPORT_INVALID">Ungültiger Sport</string>
+    <string id="Sync">Synchronisieren</string>
 </strings>
