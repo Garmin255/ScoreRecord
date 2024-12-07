@@ -1,6 +1,8 @@
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.Communications;
+import Toybox.Application.Storage;
 
 class MainMenuDelegate extends WatchUi.MenuInputDelegate {
     private var _view as SoccerView;
@@ -14,6 +16,7 @@ class MainMenuDelegate extends WatchUi.MenuInputDelegate {
     private var _awayString as String;
     private var _noRecordsString as String;
     private var _teamName as String;
+    private var _syncString as String;
 
     function initialize(view as SoccerView) {
         MenuInputDelegate.initialize();
@@ -28,6 +31,7 @@ class MainMenuDelegate extends WatchUi.MenuInputDelegate {
         _awayString = $.awayString;
         _noRecordsString = WatchUi.loadResource($.Rez.Strings.NoRecords) as String;
         _teamName = WatchUi.loadResource($.Rez.Strings.TeamName) as String;
+        _syncString = WatchUi.loadResource($.Rez.Strings.Sync) as String;
     }
 
     function onMenuItem(item as Symbol) as Void {
@@ -193,6 +197,24 @@ class MainMenuDelegate extends WatchUi.MenuInputDelegate {
             $.pushComfirmDialog(_resetString, true);
         } else if (item == :item_exit) {
             $.pushComfirmDialog(_exitString, false);
+        } else if (item == :item_sync) {
+            if (Toybox.Communications has :transmit) {
+                var data = {
+                    "match_datas" => $.match_datas,
+                    "records" => {}
+                };
+                
+                for (var i = 0; i < $.match_datas.size(); i++) {
+                    var matchDate = $.match_datas[i];
+                    var matchRecord = Storage.getValue(matchDate);
+                    if (matchRecord != null) {
+                        data.get("records").put(matchDate, matchRecord);
+                    }
+                }
+
+                Communications.transmit(data, null, new CommListener());
+                WatchUi.showToast(_syncString, { :icon => null });
+            }
         }
     }
 
@@ -236,5 +258,19 @@ class MainMenuDelegate extends WatchUi.MenuInputDelegate {
         title = home_goals + " - " + away_goals;
         mainMenu.setTitle(title);
         WatchUi.pushView(mainMenu, new $.RecordsMenu2DetailDelegate(records), WatchUi.SLIDE_UP);
+    }
+}
+
+class CommListener extends Communications.ConnectionListener {
+    function initialize() {
+        ConnectionListener.initialize();
+    }
+
+    function onComplete() {
+        WatchUi.showToast("同步完成", { :icon => null });
+    }
+
+    function onError() {
+        WatchUi.showToast("同步失败", { :icon => null });
     }
 }
