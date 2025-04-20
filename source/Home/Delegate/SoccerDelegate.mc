@@ -17,6 +17,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
     private var _undoString as String;
     private var _exitString as String;
     private var _hasRecordsString as String;
+    private var _undoErrorString as String;
 
     function initialize(view as SoccerView) {
         BehaviorDelegate.initialize();
@@ -29,6 +30,7 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
         _undoString = WatchUi.loadResource($.Rez.Strings.Undo) as String;
         _exitString = WatchUi.loadResource($.Rez.Strings.Exit) as String;
         _hasRecordsString = WatchUi.loadResource($.Rez.Strings.hasRecords) as String;
+        _undoErrorString = WatchUi.loadResource($.Rez.Strings.UndoError) as String;
     }
 
     function onMenu() as Boolean {
@@ -75,7 +77,11 @@ class SoccerDelegate extends WatchUi.BehaviorDelegate {
 
     public function onBack() as Lang.Boolean {
         if (_view.isSessionRecording()) {
-            pushUndoDialog();
+            if (_view.getHomeGoals() != 0 || _view.getAwayGoals() != 0) {
+                pushUndoDialog();
+            } else {
+                WatchUi.showToast(_undoErrorString, { :icon => null });
+            }
         } else {
             $.pushComfirmDialog(_exitString, false);
         }

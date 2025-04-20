@@ -20,6 +20,14 @@ class SoccerView extends WatchUi.View {
     private var _awayString as String;
 	var homeTeamScore = 0;
 	var awayTeamScore = 0;
+
+	function getHomeGoals() {
+	    return homeTeamScore;
+	}
+
+	function getAwayGoals() {
+	    return awayTeamScore;
+	}
 	var lastScored = new [0];
 	var myTimer = new Timer.Timer();
 	var currentTime;
